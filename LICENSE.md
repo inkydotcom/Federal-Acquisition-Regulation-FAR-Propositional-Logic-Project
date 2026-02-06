@@ -2,7 +2,7 @@
 
 ## Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-Copyright (c) 2025 TK
+Copyright (c) 2026 Tommy Kim
 
 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
 
