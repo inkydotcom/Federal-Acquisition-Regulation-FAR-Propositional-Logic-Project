@@ -1,0 +1,1274 @@
+"RFO_Part","Section_Number","Propositional_ID","Natural_Language","Atomic_Propositions","Formal_Logic_Statement","Dependencies","Justification_Rules","Validation_Status","Logical_Check","Real_World_Check","Validation_Notes","Confidence_Level"
+"12.0 (General)","12.000","P_12_000","12.000
+Scope.
+This part provides policies and procedures to streamline the acquisition of commercial products, including commercially available off-the-shelf (COTS) items (a subset of commercial products), and commercial services in accordance with 41 U.S.C. 1906, 1907, and 3307 and 10 U.S.C. 3451-3453. It also implements the simplified procedures authorized by 41 U.S.C. 1901-1903, 1905, and 3305.","P_12_000_a: This part provides policies and procedures to streamline the acquisition of commercial products, including commercially available off-the-shelf (COTS) items (a subset of commercial products), and commercial services in accordance with 41 U.S.C. 1906, 1907, and 3307 and 10 U.S.C. 3451-3453. It also implements the simplified procedures authorized by 41 U.S.C. 1901-1903, 1905, and 3305.","P_12_000_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.0 (General)","12.001_a","P_12_001_a","12.001(a) Applicability.
+Acquisitions of commercial products or commercial services are subject to other parts of the FAR. This part takes precedence when there is an inconsistency.","P_12_001_a_a: Applicability.
+(a)
+Acquisitions of commercial products or commercial services are subject to other parts of the FAR. This part takes precedence when there is an inconsistency.","P_12_001_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.0 (General)","12.001_b","P_12_001_b","12.001(b) Agencies may treat any acquisition of supplies or services that, as determined by the head of the agency, are to be used to facilitate defense against or recovery from cyber, nuclear, biological, chemical, or radiological attack, as an acquisition of commercial products or commercial services. However, if the contract is awarded on a sole-source basis for an amount greater than $25 million, the contract is not exempt from Cost Accounting Standards (CAS) (see 48 CFR chapter 99) or certified cost or pricing data requirements (see part 15).","P_12_001_b_a: (b)
+Agencies may treat any acquisition of supplies or services that, as determined by the head of the agency, are to be used to facilitate defense against or recovery from cyber, nuclear, biological, chemical, or radiological attack, as an acquisition of commercial products or commercial services. However, if the contract is awarded on a sole-source basis for an amount greater than $25 million, the contract is not exempt from Cost Accounting Standards (CAS) (see 48 CFR chapter 99) or certified cost or pricing data requirements (see part 15).","P_12_001_b_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Permissive statement; optional action.","HIGH"
+"12.0 (General)","12.001_c","P_12_001_c","12.001(c) The $9 million ceiling for the use of simplified procedures (see 12.201-1) is increased to $15 million if the head of the agency determines that the supplies or services are to be used to—
+(1)
+Support a contingency operation;
+(2)
+Facilitate the defense against or recovery from cyber, nuclear, biological, chemical, or radiological attack (including acquisitions treated as commercial products or commercial services according to paragraph (b));
+(3)
+Support a request from the Secretary of State or the Administrator of the United States Agency for International Development to facilitate provision of international disaster assistance; or
+(4)
+Support response to an emergency or major disaster.","P_12_001_c_a: (c)
+The $9 million ceiling for the use of simplified procedures (see 12.201-1) is increased to $15 million if the head of the agency determines that the supplies or services are to be used to—; P_12_001_c_b: Support a contingency operation;; P_12_001_c_c: Facilitate the defense against or recovery from cyber, nuclear, biological, chemical, or radiological attack (including acquisitions treated as commercial products or commercial services according to paragraph (b));; P_12_001_c_d: Support a request from the Secretary of State or the Administrator of the United States Agency for International Development to facilitate provision of international disaster assistance; or; P_12_001_c_e: Support response to an emergency or major disaster.","(P_12_001_c_a ⊃ (P_12_001_c_b ∧ P_12_001_c_c ∧ P_12_001_c_d ∧ P_12_001_c_e))","P_12_201_1","Modus ponens (MP): Rule 1; Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Regulatory statement properly represented. Cross-references 1 other section(s).","HIGH"
+"12.0 (General)","12.001_d","P_12_001_d","12.001(d) Do not divide requirements, the aggregate value of which exceeds a threshold identified in this subpart, merely to permit use of a specific procedure.","P_12_001_d_a: (d)
+Do not divide requirements, the aggregate value of which exceeds a threshold identified in this subpart, merely to permit use of a specific procedure.","P_12_001_d_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Prohibition properly represented.","HIGH"
+"12.0 (General)","12.001_e","P_12_001_e","12.001(e) Go to
+https://www.acquisition.gov/inapplicablelaws
+for the lists of laws that do not apply to contracts for the acquisition of commercial products or commercial services, acquisitions of COTS items, and acquisitions valued at or below the simplified acquisition threshold (SAT) (41 U.S.C. 1905 through 1907).","P_12_001_e_a: (e)
+Go to
+https://www.acquisition.gov/inapplicablelaws
+for the lists of laws that do not apply to contracts for the acquisition of commercial products or commercial services, acquisitions of COTS items, and acquisitions valued at or below the simplified acquisition threshold (SAT) (41 U.S.C. 1905 through 1907).","P_12_001_e_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Prohibition properly represented.","HIGH"
+"12.1 (Presolicitation)","12.101_a","P_12_101_a","12.101(a) Preference.
+Agencies must acquire commercial products or commercial services when the agency determines that they are available to meet the agency’s needs (see part 10).","P_12_101_a_a: Preference.
+(a)
+Agencies must acquire commercial products or commercial services when the agency determines that they are available to meet the agency’s needs (see part 10).","P_12_101_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Mandatory requirement; enforceable.","HIGH"
+"12.1 (Presolicitation)","12.101_b","P_12_101_b","12.101(b) Require prime contractors and subcontractors at all tiers to incorporate, to the maximum extent practicable, commercial products, commercial services, or nondevelopmental items as components of items supplied to the agency.","P_12_101_b_a: (b)
+Require prime contractors and subcontractors at all tiers to incorporate, to the maximum extent practicable, commercial products, commercial services, or nondevelopmental items as components of items supplied to the agency.","P_12_101_b_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Mandatory requirement; enforceable.","HIGH"
+"12.1 (Presolicitation)","12.102","P_12_102","12.102
+Restricting competition.
+Document decisions to restrict competition, including the use of brand-name descriptions without allowing for “equal” products, as follows:","P_12_102_a: Restricting competition.
+Document decisions to restrict competition, including the use of brand-name descriptions without allowing for “equal” products, as follows:","P_12_102_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.102_a","P_12_102_a","12.102(a) For acquisitions valued at or below the simplified acquisition threshold (SAT), document the decision that only one source is available and the basis for the decision.","P_12_102_a_a: (a)
+For acquisitions valued at or below the simplified acquisition threshold (SAT), document the decision that only one source is available and the basis for the decision.","P_12_102_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.102_b","P_12_102_b","12.102(b) For acquisitions valued over the SAT, prepare a written justification and obtain approval of the justification as described in 6.104. Cite the following statutory authority, as applicable:
+Table 12-1 — Authority citations for restricting competition.
+Procedures
+Value
+Statutory authority
+12.201-1, Simplified procedures
+> SAT, ≤ $9 million
+41 U.S.C. 1901
+12.201-1, Simplified procedures, for acquisition described at 12.001(c)
+> $9 million, ≤ $15 million
+41 U.S.C. 1901 and 1903
+12.201-2, Other procedures
+> $9 million (> $15 million for acquisitions described at 12.001(c))
+One of the statutory authorities cited in 6.103, as appropriate","P_12_102_b_a: (b)
+For acquisitions valued over the SAT, prepare a written justification and obtain approval of the justification as described in 6.104. Cite the following statutory authority, as applicable:
+Table 12-1 — Authority citations for restricting competition.
+Procedures
+Value
+Statutory authority
+12.201-1, Simplified procedures
+> SAT, ≤ $9 million
+41 U.S.C. 1901
+12.201-1, Simplified procedures, for acquisition described at 12.001(c)
+> $9 million, ≤ $15 million
+41 U.S.C. 1901 and 1903
+12.201-2, Other procedures
+> $9 million (> $15 million for acquisitions described at 12.001(c))
+One of the statutory authorities cited in 6.103, as appropriate","P_12_102_b_a","P_12_001, P_12_201_1, P_12_201_2, P_6_103, P_6_104","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 5 other section(s).","HIGH"
+"12.1 (Presolicitation)","12.103","P_12_103","12.103
+Small business.
+See part 19 for small business set-aside requirements. When the acquisition is set aside under any of the small business programs, include the North American Industry Classification System (NAICS) code and small business size standard in the solicitation.","P_12_103_a: See part 19 for small business set-aside requirements. When the acquisition is set aside under any of the small business programs, include the North American Industry Classification System (NAICS) code and small business size standard in the solicitation.","P_12_103_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.104_a","P_12_104_a","12.104(a) Contract type.
+Preference for fixed-price contracts
+. To the maximum extent practicable, use firm-fixed-price or fixed-price with economic price adjustment contract types to procure commercial products or commercial services. Follow the procedures in part 16 to use these contract types.","P_12_104_a_a: Contract type.
+(a)
+Preference for fixed-price contracts
+. To the maximum extent practicable, use firm-fixed-price or fixed-price with economic price adjustment contract types to procure commercial products or commercial services. Follow the procedures in part 16 to use these contract types.","P_12_104_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.104_b","P_12_104_b","12.104(b) Time-and-materials or labor-hour contracts
+. A time-and-materials or labor-hour contract may be used for commercial services that are procured on a competitive basis, if the services are commonly sold to the general public using these types of contracts.
+(1)
+To use this contract type, the contracting officer must—
+(i)
+Execute a determination and findings (D&F) that a firm-fixed-price or fixed-price with economic price adjustment is not suitable; and
+(ii)
+Include in the contract a ceiling price that the contractor exceeds at its own risk.
+(2)
+Any increase to the ceiling price must be supported by a determination that doing so is in the best interest of the procuring agency.","P_12_104_b_a: (b)
+Time-and-materials or labor-hour contracts
+. A time-and-materials or labor-hour contract may be used for commercial services that are procured on a competitive basis, if the services are commonly sold to the general public using these types of contracts.; P_12_104_b_b: To use this contract type, the contracting officer must—
+(i)
+Execute a determination and findings (D&F) that a firm-fixed-price or fixed-price with economic price adjustment is not suitable; and
+(ii)
+Include in the contract a ceiling price that the contractor exceeds at its own risk.; P_12_104_b_c: Any increase to the ceiling price must be supported by a determination that doing so is in the best interest of the procuring agency.","(P_12_104_b_a ⊃ (P_12_104_b_b ∧ P_12_104_b_c))","None","Modus ponens (MP): Rule 1; Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.104_c","P_12_104_c","12.104(c) Indefinite-delivery contracts
+.
+(1)
+Indefinite-delivery contracts may be used when—
+(i)
+Prices are established based on a firm-fixed-price or fixed-price with economic price adjustment; or
+(ii)
+Rates are established for commercial services acquired on a time-and-materials or labor-hour basis.
+(2)
+If rates are established on a time-and-materials or labor-hour basis, then to the maximum extent practicable, structure the contract to allow issuance of orders on a firm-fixed-price or fixed-price with economic price adjustment basis.
+(i)
+Orders placed on a time-and-materials or labor-hour basis are subject to the requirements in paragraph (b) of this section.
+(ii)
+If the contract only allows for orders on a time-and-materials or labor-hour basis, the D&F described in paragraph (b)(1) of this section is required only for the basic contract. It must explain why providing for an alternative firm-fixed-price or fixed-price with economic price adjustment pricing structure for orders is not practicable, and an official one level above the contracting officer must approve it.","P_12_104_c_a: (c)
+Indefinite-delivery contracts
+.; P_12_104_c_b: Indefinite-delivery contracts may be used when—
+(i)
+Prices are established based on a firm-fixed-price or fixed-price with economic price adjustment; or
+(ii)
+Rates are established for commercial services acquired on a time-and-materials or labor-hour basis.; P_12_104_c_c: If rates are established on a time-and-materials or labor-hour basis, then to the maximum extent practicable, structure the contract to allow issuance of orders on a firm-fixed-price or fixed-price with economic price adjustment basis.
+(i)
+Orders placed on a time-and-materials or labor-hour basis are subject to the requirements in paragraph (b) of this section.
+(ii)
+If the contract only allows for orders on a time-and-materials or labor-hour basis, the D&F described in paragraph (b)(1) of this section is required only for the basic contract. It must explain why providing for an alternative firm-fixed-price or fixed-price with economic price adjustment pricing structure for orders is not practicable, and an official one level above the contracting officer must approve it.","(P_12_104_c_a ⊃ (P_12_104_c_b ∧ P_12_104_c_c))","None","Modus ponens (MP): Rule 1; Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Regulatory statement properly represented.","MEDIUM"
+"12.1 (Presolicitation)","12.104_d","P_12_104_d","12.104(d) Prohibition on use of cost-reimbursement contracts
+. Do not use any cost-reimbursement contract type to procure commercial products or commercial services.","P_12_104_d_a: (d)
+Prohibition on use of cost-reimbursement contracts
+. Do not use any cost-reimbursement contract type to procure commercial products or commercial services.","P_12_104_d_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Prohibition properly represented.","HIGH"
+"12.1 (Presolicitation)","12.105_a","P_12_105_a","12.105(a) Quality requirements.
+Quality assurance
+. To the maximum extent practicable, allow a contractor under a commercial products acquisition to use its existing quality assurance system to inspect or test commercial products before the contractor presents the products to the Government for acceptance. Rely on the contractor to accomplish all inspection and testing needed to ensure that commercial services conform to contract requirements before the contractor presents the services to the Government.","P_12_105_a_a: Quality requirements.
+(a)
+Quality assurance
+. To the maximum extent practicable, allow a contractor under a commercial products acquisition to use its existing quality assurance system to inspect or test commercial products before the contractor presents the products to the Government for acceptance. Rely on the contractor to accomplish all inspection and testing needed to ensure that commercial services conform to contract requirements before the contractor presents the services to the Government.","P_12_105_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.105_b","P_12_105_b","12.105(b) Warranties
+. To the maximum extent practicable, take advantage of commercial warranties, including extended warranties, and use those warranties for the repair and replacement of commercial products and commercial services.","P_12_105_b_a: (b)
+Warranties
+. To the maximum extent practicable, take advantage of commercial warranties, including extended warranties, and use those warranties for the repair and replacement of commercial products and commercial services.","P_12_105_b_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.106","P_12_106","12.106
+Technical data.
+Presume that data delivered under a contract for commercial products was developed exclusively at private expense. Acquire only the technical data and the rights in that data customarily provided to the public with a commercial product or process. When a contract for commercial products requires the delivery of technical data, see part 27 for provisions and clauses to delineate rights in the technical data.","P_12_106_a: Presume that data delivered under a contract for commercial products was developed exclusively at private expense. Acquire only the technical data and the rights in that data customarily provided to the public with a commercial product or process. When a contract for commercial products requires the delivery of technical data, see part 27 for provisions and clauses to delineate rights in the technical data.","P_12_106_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.1 (Presolicitation)","12.107_a","P_12_107_a","12.107(a) Computer software.
+Commercial computer software or commercial computer software documentation must be acquired under licenses customarily provided to the public to the extent such licenses are consistent with Federal law and otherwise satisfy the Government’s needs. Generally, offerors and contractors must not be required to—
+(1)
+Furnish technical information related to commercial computer software or commercial computer software documentation that is not customarily provided to the public; or
+(2)
+Relinquish to, or otherwise provide, the Government rights to use, modify, reproduce, release, perform, display, or disclose commercial computer software or commercial computer software documentation except as mutually agreed to by the parties.","P_12_107_a_a: Computer software.
+(a)
+Commercial computer software or commercial computer software documentation must be acquired under licenses customarily provided to the public to the extent such licenses are consistent with Federal law and otherwise satisfy the Government’s needs. Generally, offerors and contractors must not be required to—; P_12_107_a_b: Furnish technical information related to commercial computer software or commercial computer software documentation that is not customarily provided to the public; or; P_12_107_a_c: Relinquish to, or otherwise provide, the Government rights to use, modify, reproduce, release, perform, display, or disclose commercial computer software or commercial computer software documentation except as mutually agreed to by the parties.","(P_12_107_a_a ∧ P_12_107_a_b) ∨ P_12_107_a_c","None","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Mandatory requirement; enforceable.","HIGH"
+"12.1 (Presolicitation)","12.107_b","P_12_107_b","12.107(b) With regard to commercial computer software and commercial computer software documentation, the Government should have only those rights specified in the license contained in any addendum to the contract. For additional guidance regarding the use and negotiation of license agreements for commercial computer software, see part 27.","P_12_107_b_a: (b)
+With regard to commercial computer software and commercial computer software documentation, the Government should have only those rights specified in the license contained in any addendum to the contract. For additional guidance regarding the use and negotiation of license agreements for commercial computer software, see part 27.","P_12_107_b_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Permissive statement; optional action.","HIGH"
+"12.1 (Presolicitation)","12.108","P_12_108","12.108
+Contract financing.
+Government financing may be offered if buyer financing is a customary market practice for a commercial product or commercial service. See part 32 for contract financing policies and procedures.","P_12_108_a: Government financing may be offered if buyer financing is a customary market practice for a commercial product or commercial service.; P_12_108_b: See part 32 for contract financing policies and procedures.","(P_12_108_a ⊃ P_12_108_b)","None","Modus ponens (MP): Rule 1","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Permissive statement; optional action.","HIGH"
+"12.1 (Presolicitation)","12.109","P_12_109","12.109
+Cost Accounting Standards.
+CAS do not apply to contracts or subcontracts for the acquisition of commercial products or commercial services, except as provided in 12.001(c).","P_12_109_a: CAS do not apply to contracts or subcontracts for the acquisition of commercial products or commercial services, except as provided in 12.001(c).","P_12_109_a","P_12_001","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Prohibition properly represented. Cross-references 1 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.200_a","P_12_200_a","12.200(a) Applicability.
+If commercial products or commercial services that meet agency needs are available from any priority source identified in part 8, including existing contracts awarded for Governmentwide use (e.g., the Federal Supply Schedules and Governmentwide acquisition contracts), procure the commercial products or commercial services from that source. If not, use the streamlined procedures for solicitation, evaluation, and award in this subpart.","P_12_200_a_a: Applicability.
+(a)
+If commercial products or commercial services that meet agency needs are available from any priority source identified in part 8, including existing contracts awarded for Governmentwide use (e.g., the Federal Supply Schedules and Governmentwide acquisition contracts), procure the commercial products or commercial services from that source.; P_12_200_a_b: If not, use the streamlined procedures for solicitation, evaluation, and award in this subpart.","(P_12_200_a_a ⊃ P_12_200_a_b)","None","Modus ponens (MP): Rule 1","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Regulatory statement properly represented.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.200_b","P_12_200_b","12.200(b) When using the procedures in this subpart to acquire construction, comply with the requirements in part 36 for construction contracts and subpart 22.4 on labor standards for contracts involving construction.","P_12_200_b_a: (b)
+When using the procedures in this subpart to acquire construction, comply with the requirements in part 36 for construction contracts and subpart 22.4 on labor standards for contracts involving construction.","P_12_200_b_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.201","P_12_201","12.201
+Solicitation procedures.","P_12_201_a: Solicitation procedures.","P_12_201_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.201-1_a","P_12_201_1_a","12.201-1(a) Simplified procedures.
+Requirement
+. For acquisitions valued up to $9 million, issue a request for quotations (RFQ) followed by a purchase order.","P_12_201_1_a_a: Simplified procedures.
+(a)
+Requirement
+. For acquisitions valued up to $9 million, issue a request for quotations (RFQ) followed by a purchase order.","P_12_201_1_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.201-1_b","P_12_201_1_b","12.201-1(b) Legal effect of quotations
+.
+(1)
+Neither a quotation nor the purchase order issued by the Government in response to a quotation form a binding contract. The purchase order is the Government’s offer to a supplier to buy certain products or services upon specified terms and conditions.
+(2)
+A binding contract is formed when the supplier accepts the Government’s offer, either by written acceptance of the purchase order or substantial performance of the purchase order. The contracting officer may request that the contractor provide written acceptance of the order.","P_12_201_1_b_a: (b)
+Legal effect of quotations
+.; P_12_201_1_b_b: Neither a quotation nor the purchase order issued by the Government in response to a quotation form a binding contract. The purchase order is the Government’s offer to a supplier to buy certain products or services upon specified terms and conditions.; P_12_201_1_b_c: A binding contract is formed when the supplier accepts the Government’s offer, either by written acceptance of the purchase order or substantial performance of the purchase order. The contracting officer may request that the contractor provide written acceptance of the order.","(P_12_201_1_b_a ∧ P_12_201_1_b_b ∧ P_12_201_1_b_c)","None","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Permissive statement; optional action.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.201-1_c","P_12_201_1_c","12.201-1(c) Method
+. To promote competition to the maximum extent practicable—
+(1)
+Normally, post RFQs in the Governmentwide Point of Entry (GPE). Use the Standard Form (SF) SF 1449, Solicitation/Contract/Order for Commercial Products and Commercial Services; or SF 18, Request for Quotations; or similar agency form or automated format. For acquisitions greater than the SAT, combine the presolicitation notice and the RFQ according to 12.202(b).
+(2)
+For acquisitions at or below the SAT, the contracting officer may choose to solicit quotations directly from suppliers. When soliciting directly-
+(i)
+Post a presolicitation notice in the GPE according to subpart 5.1, unless an exception in 5.101(b) applies;
+(ii)
+Solicit quotations from at least three sources; and
+(iii)
+Whenever practicable, solicit quotations from two sources not included in the previous solicitation.","P_12_201_1_c_a: (c)
+Method
+. To promote competition to the maximum extent practicable—; P_12_201_1_c_b: Normally, post RFQs in the Governmentwide Point of Entry (GPE). Use the Standard Form (SF) SF 1449, Solicitation/Contract/Order for Commercial Products and Commercial Services; or SF 18, Request for Quotations; or similar agency form or automated format. For acquisitions greater than the SAT, combine the presolicitation notice and the RFQ according to 12.202(b).; P_12_201_1_c_c: For acquisitions at or below the SAT, the contracting officer may choose to solicit quotations directly from suppliers. When soliciting directly-
+(i)
+Post a presolicitation notice in the GPE according to subpart 5.1, unless an exception in 5.101(b) applies;
+(ii)
+Solicit quotations from at least three sources; and
+(iii)
+Whenever practicable, solicit quotations from two sources not included in the previous solicitation.","(P_12_201_1_c_a ∧ P_12_201_1_c_b) ∨ P_12_201_1_c_c","P_12_202, P_5_101","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Permissive statement; optional action. Cross-references 2 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.201-1_d","P_12_201_1_d","12.201-1(d) Innovation
+. In line with 1.102, Guiding principles for the System, agencies are encouraged to use additional innovative approaches to the maximum extent practicable when soliciting quotations and issuing purchase orders to—
+(1)
+Reduce administrative costs and lead time;
+(2)
+Improve opportunities for small business concerns;
+(3)
+Promote efficiency and economy in contracting; and
+(4)
+Avoid unnecessary burdens for agencies and contractors.","P_12_201_1_d_a: (d)
+Innovation
+. In line with 1.102, Guiding principles for the System, agencies are encouraged to use additional innovative approaches to the maximum extent practicable when soliciting quotations and issuing purchase orders to—; P_12_201_1_d_b: Reduce administrative costs and lead time;; P_12_201_1_d_c: Improve opportunities for small business concerns;; P_12_201_1_d_d: Promote efficiency and economy in contracting; and; P_12_201_1_d_e: Avoid unnecessary burdens for agencies and contractors.","(P_12_201_1_d_a ∧ P_12_201_1_d_b ∧ P_12_201_1_d_c ∧ P_12_201_1_d_d ∧ P_12_201_1_d_e)","P_1_102","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Permissive statement; optional action. Cross-references 1 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.201-1_e","P_12_201_1_e","12.201-1(e) Other flexibilities
+. The following are examples of flexibilities that may be leveraged when using simplified procedures:
+(1)
+Standing price quotation
+. Instead of soliciting new quotations for each purchase (see 12.201-1(c)(2)), a contracting officer may rely upon standing price quotations, as long as the contracting officer validates before award that the pricing is current and reasonable.
+(2)
+Unpriced purchase order
+. An unpriced purchase order is an order for supplies or services, the price of which is not established at the time of issuance of the order.
+(i)
+An unpriced purchase order may be used only when it is impractical to obtain pricing in advance of issuance of the purchase order. Examples of such situations include:
+(A)
+Repairs to equipment requiring disassembly to determine the nature and extent of repairs;
+(B)
+Material available from only one source and for which cost cannot readily be established; or
+(C)
+Supplies or services for which prices are known to be competitive, but exact prices are not known (
+e.g.
+, miscellaneous repair parts, maintenance agreements).
+(ii)
+When issuing an unpriced purchase order, include-
+(A)
+A realistic monetary limitation (either for each line item or for the total order) that is an obligation subject to adjustment once a firm price is established; and
+(B)
+The following statement:
+This is a firm order ONLY if your price does not exceed the maximum line item or total price in the Schedule. Submit invoices to the Contracting Officer. If you cannot perform in exact accordance with this order, Withhold Performance, and notify the Contracting Officer immediately, giving your quotation.
+(iii)
+Follow up on each order to ensure timely pricing. Review the invoice price and, if the price is reasonable (see 12.204(a)), process the invoice for payment.
+(3)
+Blanket purchase agreement
+. A blanket purchase agreement (BPA) is a method of filling anticipated repetitive needs for supplies or services by establishing ""charge accounts"" with qualified sources of supply. The Government is only obligated to the extent that authorized orders are placed under BPAs.
+(i)
+BPAs may be established with-
+(A)
+More than one supplier for supplies or services of the same type to provide maximum practicable competition; or
+(B)
+A single firm from which numerous individual purchases at or below the simplified acquisition threshold will likely be made in a given period.
+(ii)
+If, for a particular purchase greater than the micro-purchase threshold, there is an insufficient number of BPAs to ensure maximum practicable competition, the contracting officer shall-
+(A)
+Solicit quotations from other sources and make the purchase as appropriate; and
+(B)
+If practical, establish additional BPAs to facilitate future purchases if recurring requirements for the same or similar supplies or services seem likely and qualified sources are willing to accept BPAs.
+(iii)
+The existence of a BPA does not justify soliciting from only one source or avoiding small business set-asides. The requirements in 12.102 and 12.103 apply to each order under the BPA.
+(iv)
+The BPA must include-
+(A)
+A statement that the supplier will furnish supplies or services, described in general terms, if and when requested by authorized individuals during a specified period and within a stipulated aggregate amount, if any.
+(B)
+A statement that the Government is obligated only to the extent of authorized purchases actually made under the BPA.
+(C)
+The dollar limitation for each individual purchase under the BPA, which may not exceed the threshold for use of simplified procedures at 12.201-1(a) (including the increased threshold at 12.001(c).
+(D)
+A list of individuals authorized to place orders or make purchases under the BPA.
+(E)
+Information that must be included in delivery or shipment documentation.
+(F)
+Instructions for proper invoicing under the BPA (e.g., process for periodic billings).
+(G)
+Any clauses that may be applicable to purchases under the BPA (see 12.205(b)).
+(v)
+Review BPAs at least annually to ensure that authorized procedures are being followed. Maintain awareness of changes in market conditions, sources of supply, and other pertinent factors that may warrant making new agreements with different suppliers or modifying existing agreements.","P_12_201_1_e_a: (e)
+Other flexibilities
+. The following are examples of flexibilities that may be leveraged when using simplified procedures:; P_12_201_1_e_b: Standing price quotation
+. Instead of soliciting new quotations for each purchase (see 12.201-1(c)(2)), a contracting officer may rely upon standing price quotations, as long as the contracting officer validates before award that the pricing is current and reasonable.; P_12_201_1_e_c: Unpriced purchase order
+. An unpriced purchase order is an order for supplies or services, the price of which is not established at the time of issuance of the order.
+(i)
+An unpriced purchase order may be used only when it is impractical to obtain pricing in advance of issuance of the purchase order. Examples of such situations include:
+(A)
+Repairs to equipment requiring disassembly to determine the nature and extent of repairs;
+(B)
+Material available from only one source and for which cost cannot readily be established; or
+(C)
+Supplies or services for which prices are known to be competitive, but exact prices are not known (
+e.g.
+, miscellaneous repair parts, maintenance agreements).
+(ii)
+When issuing an unpriced purchase order, include-
+(A)
+A realistic monetary limitation (either for each line item or for the total order) that is an obligation subject to adjustment once a firm price is established; and
+(B)
+The following statement:
+This is a firm order ONLY if your price does not exceed the maximum line item or total price in the Schedule. Submit invoices to the Contracting Officer. If you cannot perform in exact accordance with this order, Withhold Performance, and notify the Contracting Officer immediately, giving your quotation.
+(iii)
+Follow up on each order to ensure timely pricing. Review the invoice price and, if the price is reasonable (see 12.204(a)), process the invoice for payment.; P_12_201_1_e_d: Blanket purchase agreement
+. A blanket purchase agreement (BPA) is a method of filling anticipated repetitive needs for supplies or services by establishing ""charge accounts"" with qualified sources of supply. The Government is only obligated to the extent that authorized orders are placed under BPAs.
+(i)
+BPAs may be established with-
+(A)
+More than one supplier for supplies or services of the same type to provide maximum practicable competition; or
+(B)
+A single firm from which numerous individual purchases at or below the simplified acquisition threshold will likely be made in a given period.
+(ii)
+If, for a particular purchase greater than the micro-purchase threshold, there is an insufficient number of BPAs to ensure maximum practicable competition, the contracting officer shall-
+(A)
+Solicit quotations from other sources and make the purchase as appropriate; and
+(B)
+If practical, establish additional BPAs to facilitate future purchases if recurring requirements for the same or similar supplies or services seem likely and qualified sources are willing to accept BPAs.
+(iii)
+The existence of a BPA does not justify soliciting from only one source or avoiding small business set-asides. The requirements in 12.102 and 12.103 apply to each order under the BPA.
+(iv)
+The BPA must include-
+(A)
+A statement that the supplier will furnish supplies or services, described in general terms, if and when requested by authorized individuals during a specified period and within a stipulated aggregate amount, if any.
+(B)
+A statement that the Government is obligated only to the extent of authorized purchases actually made under the BPA.
+(C)
+The dollar limitation for each individual purchase under the BPA, which may not exceed the threshold for use of simplified procedures at 12.201-1(a) (including the increased threshold at 12.001(c).
+(D)
+A list of individuals authorized to place orders or make purchases under the BPA.
+(E)
+Information that must be included in delivery or shipment documentation.
+(F)
+Instructions for proper invoicing under the BPA (e.g., process for periodic billings).
+(G)
+Any clauses that may be applicable to purchases under the BPA (see 12.205(b)).
+(v)
+Review BPAs at least annually to ensure that authorized procedures are being followed. Maintain awareness of changes in market conditions, sources of supply, and other pertinent factors that may warrant making new agreements with different suppliers or modifying existing agreements.","(P_12_201_1_e_a ∧ P_12_201_1_e_b ∧ P_12_201_1_e_c ∧ P_12_201_1_e_d)","P_12_001, P_12_102, P_12_103, P_12_204, P_12_205","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Regulatory statement properly represented. Cross-references 5 other section(s).","MEDIUM"
+"12.2 (Solicitation/Evaluation/Award)","12.201-2","P_12_201_2","12.201-2
+Other procedures.
+For acquisitions valued at greater than $9 million, use the procedures in this subpart in conjunction with the procedures in part 15 for requests for proposals (RFPs) or part 14 for invitations for bids (IFBs), as appropriate. Use of an RFP is the preferred method because it includes consideration of past performance when evaluating offers (see 12.203(a)(2)).","P_12_201_2_a: For acquisitions valued at greater than $9 million, use the procedures in this subpart in conjunction with the procedures in part 15 for requests for proposals (RFPs) or part 14 for invitations for bids (IFBs), as appropriate. Use of an RFP is the preferred method because it includes consideration of past performance when evaluating offers (see 12.203(a)(2)).","P_12_201_2_a","P_12_203","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 1 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.202_a","P_12_202_a","12.202(a) Publicizing.
+Publicize in accordance with part 5.","P_12_202_a_a: Publicizing.
+(a)
+Publicize in accordance with part 5.","P_12_202_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.202_b","P_12_202_b","12.202(b) To reduce the time required to solicit and award contracts for acquisitions valued over the SAT, combine the presolicitation notice and solicitation notice required by part 5.
+(1)
+Format
+. Select the “Combined Synopsis/Solicitation” format in the GPE, and include the following information:
+(i)
+In the “Description” section, include the following statements:
+This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with part 12. This announcement constitutes the only solicitation. Offers are being requested and a separate written solicitation will not be issued.
+Solicitation number [insert solicitation number] is issued as a
+[insert request for quotation (RFQ), request for proposal (RFP), or invitation for bid (IFB)]
+for
+[provide a brief description of the requirement]
+.
+This acquisition
+[is/is not]
+set-aside for small business concerns. This solicitation incorporates provisions and clauses by reference. The full text of provisions and clauses may be accessed electronically at
+www.acquisition.gov
+.
+[If applicable, insert a statement regarding the Defense Priorities and Allocations System (DPAS) and assigned rating.]
+(ii)
+A list of line-item number(s) and items, quantities, and units of measure (including option(s), if applicable).
+(iii)
+Description of requirements for the items to be acquired, including documentation supporting any brand name descriptions (see 12.102).
+(iv)
+Date(s) and place(s) of delivery and acceptance and f.o.b. point (see part 47).
+(v)
+A list of solicitation provisions that apply to the acquisition (see 12.205(a)).
+(vi)
+A list of contract clauses that apply to the acquisition (see 12.205(b)).
+(vii)
+The date, time, and place for receipt of offer and point of contact.
+(viii)
+Any other additional information required by 5.101(c).
+(2)
+Response times
+. Set a response time that gives offerors a reasonable opportunity to respond, unless the acquisition is subject to the minimum time period for acquisitions covered by the World Trade Organization Government Procurement Agreement or a Free Trade Agreement (see subpart 5.2 and part 25).","P_12_202_b_a: (b)
+To reduce the time required to solicit and award contracts for acquisitions valued over the SAT, combine the presolicitation notice and solicitation notice required by part 5.; P_12_202_b_b: Format
+. Select the “Combined Synopsis/Solicitation” format in the GPE, and include the following information:
+(i)
+In the “Description” section, include the following statements:
+This is a combined synopsis/solicitation for commercial products or commercial services prepared in accordance with part 12. This announcement constitutes the only solicitation. Offers are being requested and a separate written solicitation will not be issued.
+Solicitation number [insert solicitation number] is issued as a
+[insert request for quotation (RFQ), request for proposal (RFP), or invitation for bid (IFB)]
+for
+[provide a brief description of the requirement]
+.
+This acquisition
+[is/is not]
+set-aside for small business concerns. This solicitation incorporates provisions and clauses by reference. The full text of provisions and clauses may be accessed electronically at
+www.acquisition.gov
+.
+[If applicable, insert a statement regarding the Defense Priorities and Allocations System (DPAS) and assigned rating.]
+(ii)
+A list of line-item number(s) and items, quantities, and units of measure (including option(s), if applicable).
+(iii)
+Description of requirements for the items to be acquired, including documentation supporting any brand name descriptions (see 12.102).
+(iv)
+Date(s) and place(s) of delivery and acceptance and f.o.b. point (see part 47).
+(v)
+A list of solicitation provisions that apply to the acquisition (see 12.205(a)).
+(vi)
+A list of contract clauses that apply to the acquisition (see 12.205(b)).
+(vii)
+The date, time, and place for receipt of offer and point of contact.
+(viii)
+Any other additional information required by 5.101(c).; P_12_202_b_c: Response times
+. Set a response time that gives offerors a reasonable opportunity to respond, unless the acquisition is subject to the minimum time period for acquisitions covered by the World Trade Organization Government Procurement Agreement or a Free Trade Agreement (see subpart 5.2 and part 25).","(P_12_202_b_a ∧ P_12_202_b_b) ∨ P_12_202_b_c","P_12_102, P_12_205, P_5_101","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Regulatory statement properly represented. Cross-references 3 other section(s).","MEDIUM"
+"12.2 (Solicitation/Evaluation/Award)","12.203_a","P_12_203_a","12.203(a) Evaluation.
+Factors. For most acquisitions of commercial products or commercial services, evaluation factors need not be more detailed than technical (capability of the products or services offered to meet the agency’s needs), price, and past performance.
+(1)
+Technical. Evaluate technical based on how well the proposed products or services meet the Government’s requirement. Predetermined subfactors are not required.
+(2)
+Past performance. Past performance should be an important evaluation factor for award. Consider past performance information from a wide variety of sources both inside and outside the Government. This may include reviewing performance information reported to the Contractor Performance Assessment Reporting System, as well as other sources of information. For some commercial products or services, such as emerging technology, this should include consideration of commercial market experience. Contracting officers may consider an offeror’s experience as a subcontractor.
+(3)
+Price. Evaluate prices inclusive of transportation charges from the shipping point of the supplier to the delivery destination. Obtain prompt payment discounts to the maximum extent practicable, but do not include such discounts when evaluating the prices of quotations or offers.","P_12_203_a_a: Evaluation.
+(a)
+Factors. For most acquisitions of commercial products or commercial services, evaluation factors need not be more detailed than technical (capability of the products or services offered to meet the agency’s needs), price, and past performance.; P_12_203_a_b: Technical. Evaluate technical based on how well the proposed products or services meet the Government’s requirement. Predetermined subfactors are not required.; P_12_203_a_c: Past performance. Past performance should be an important evaluation factor for award. Consider past performance information from a wide variety of sources both inside and outside the Government. This may include reviewing performance information reported to the Contractor Performance Assessment Reporting System, as well as other sources of information. For some commercial products or services, such as emerging technology, this should include consideration of commercial market experience. Contracting officers may consider an offeror’s experience as a subcontractor.; P_12_203_a_d: Price. Evaluate prices inclusive of transportation charges from the shipping point of the supplier to the delivery destination. Obtain prompt payment discounts to the maximum extent practicable, but do not include such discounts when evaluating the prices of quotations or offers.","(P_12_203_a_a ∧ P_12_203_a_b ∧ P_12_203_a_c ∧ P_12_203_a_d)","None","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Prohibition properly represented.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.203_b","P_12_203_b","12.203(b) Basis for award. In the solicitation, notify potential quoters or offerors of the basis on which the agency will make the award decision. See 12.205(a)(2) on use of the solicitation provision at 52.212-2 for this purpose.","P_12_203_b_a: (b)
+Basis for award. In the solicitation, notify potential quoters or offerors of the basis on which the agency will make the award decision. See 12.205(a)(2) on use of the solicitation provision at 52.212-2 for this purpose.","P_12_203_b_a","P_12_205, P_52_212_2","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 2 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.203_c","P_12_203_c","12.203(c) Evaluation process. Ensure that quotations and offers can be evaluated in an efficient and minimally burdensome fashion.
+(1)
+Timely quotations and offers. Consider all quotations or offers that are timely received. Exercise good business judgment in deciding whether or not to accept a quotation or offer received after the due date or time (see 52.212-1(c)).
+(2)
+Quotations. The contracting officer has broad discretion in establishing how quotations will be evaluated. For example, the contracting officer may perform a comparative evaluation of quotations. The evaluation procedures are not subject to part 15 or 14. Contracting officers are not required to have evaluation plans, score quotations, or establish a competitive range before communicating with quoters or soliciting revised quotations.
+(3)
+Offers. Follow the procedures in part 15 when evaluating proposals and the procedures in part 14 when opening bids. When using the procedures in part 15, do so in conjunction with the procedures in this section. Follow the procedures in part 36 when acquiring construction as a commercial service.","P_12_203_c_a: (c)
+Evaluation process. Ensure that quotations and offers can be evaluated in an efficient and minimally burdensome fashion.; P_12_203_c_b: Timely quotations and offers. Consider all quotations or offers that are timely received. Exercise good business judgment in deciding whether or not to accept a quotation or offer received after the due date or time (see 52.212-1(c)).; P_12_203_c_c: Quotations. The contracting officer has broad discretion in establishing how quotations will be evaluated. For example, the contracting officer may perform a comparative evaluation of quotations. The evaluation procedures are not subject to part 15 or 14. Contracting officers are not required to have evaluation plans, score quotations, or establish a competitive range before communicating with quoters or soliciting revised quotations.; P_12_203_c_d: Offers. Follow the procedures in part 15 when evaluating proposals and the procedures in part 14 when opening bids. When using the procedures in part 15, do so in conjunction with the procedures in this section. Follow the procedures in part 36 when acquiring construction as a commercial service.","(P_12_203_c_a ∧ P_12_203_c_b ∧ P_12_203_c_c ∧ P_12_203_c_d)","P_52_212_1","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Regulatory statement properly represented. Cross-references 1 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.204_a","P_12_204_a","12.204(a) Award.
+Price reasonableness
+. The contracting officer must determine the price to be fair and reasonable. Whenever possible, base price reasonableness on competitive quotations or offers. For offers using the procedures in 12.201-2, see parts 15 and 14 for additional documentation requirements.","P_12_204_a_a: Award.
+(a)
+Price reasonableness
+.; P_12_204_a_b: The contracting officer must determine the price to be fair and reasonable. Whenever possible, base price reasonableness on competitive quotations or offers. For offers using the procedures in 12.201-2, see parts 15 and 14 for additional documentation requirements.","(P_12_204_a_a ∧ P_12_204_a_b)","P_12_201_2","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Mandatory requirement; enforceable. Cross-references 1 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.204_b","P_12_204_b","12.204(b) Documentation
+.
+(1)
+When using simplified procedures (see 12.201-1), include in the contract file a written description of the procedures used in awarding the contract and the number of quotations received.
+(2)
+When using other procedures (see 12.201-2), document the award as required by part 15 or 14, as applicable.","P_12_204_b_a: (b)
+Documentation
+.; P_12_204_b_b: When using simplified procedures (see 12.201-1), include in the contract file a written description of the procedures used in awarding the contract and the number of quotations received.; P_12_204_b_c: When using other procedures (see 12.201-2), document the award as required by part 15 or 14, as applicable.","(P_12_204_b_a ∧ P_12_204_b_b ∧ P_12_204_b_c)","P_12_201_1, P_12_201_2","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Mandatory requirement; enforceable. Cross-references 2 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.204_c","P_12_204_c","12.204(c) Forms and format
+. Agencies may use the following standard and optional forms or a similar agency form or automated format that conforms with the form to the maximum extent practicable.
+(1)
+Issuing purchase orders
+. Issue purchase orders or blanket purchase agreement orders on the SF 1449 or the Optional Form (OF) 347, Order for Supplies or Services, and the OF 336, Continuation Sheet.
+(2)
+Awarding contracts
+. Use the SF 1449 or the forms prescribed in part 14, 15, or 36, as applicable, when awarding contracts using the procedures in those parts. Use the Uniform Contract Format, but complete only those sections that are necessary.","P_12_204_c_a: (c)
+Forms and format
+. Agencies may use the following standard and optional forms or a similar agency form or automated format that conforms with the form to the maximum extent practicable.; P_12_204_c_b: Issuing purchase orders
+. Issue purchase orders or blanket purchase agreement orders on the SF 1449 or the Optional Form (OF) 347, Order for Supplies or Services, and the OF 336, Continuation Sheet.; P_12_204_c_c: Awarding contracts
+. Use the SF 1449 or the forms prescribed in part 14, 15, or 36, as applicable, when awarding contracts using the procedures in those parts. Use the Uniform Contract Format, but complete only those sections that are necessary.","(P_12_204_c_a ∧ P_12_204_c_b ∧ P_12_204_c_c)","None","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Permissive statement; optional action.","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.205_a","P_12_205_a","12.205(a) Solicitation provisions and contract clauses.
+Required provisions
+.
+(1)
+Include the provision at 52.212-1, Instructions to Offerors—Commercial Products and Commercial Services, in solicitations for commercial products and commercial services. This provision may be tailored to reflect customary commercial practice, except the paragraph on Debriefings, which is required by statute.
+(2)
+Include the provision at 52.212-2, Evaluation—Commercial Products and Commercial Services, when using the procedures in 12.201-2. This provision may also be used when using the simplified procedures at 12.201-1. This provision should be tailored for the acquisition and must include all evaluation factors and criteria for award.
+(3)
+Include the following provisions, if applicable based on the provision prescription:
+Table 12-2 — Provisions to include as prescribed.
+Number
+Title
+Source
+52.203-11
+Certification and Disclosure Regarding Payments to Influence Certain Federal Transactions
+Statute
+52.203-18
+Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements-Representation
+Statute
+52.204-7
+System for Award Management—Registration
+Statute
+52.204-7 with Alt I
+System for Award Management—Registration, with Alternate I
+Statute
+52.204-90
+Offeror Identification
+Statute
+52.207-6
+Solicitation of Offers from Small Business Concerns and Small Business Teaming Arrangements or Joint Ventures (Multiple-Award Contracts)
+Statute
+52.209-12
+Certification Regarding Tax Matters
+Statute
+52.219-2
+Equal Low Bids
+Statute
+52.222-18
+Certification Regarding Knowledge of Child Labor for Listed End Products
+E.O.
+52.222-48
+Exemption from Application of the Service Contract Labor Standards for Maintenance, Calibration, or Repair of Certain Equipment–Certification
+Other
+52.222-52
+Exemption from Application of the Service Contract Labor Standards for Certain Services-Certification
+Other
+52.222-56
+Certification Regarding Trafficking in Persons Compliance Plan
+Statute
+52.223-4
+Recovered Material Certification
+Statute
+52.225-2
+Buy American Certificate
+Statute
+52.225-4
+Buy American-Free Trade Agreements-Israeli Trade Act Certificate
+Statute
+52.225-6
+Trade Agreements-Certificate
+Statute
+52.225-20
+Prohibition on Conducting Restricted Business Operations in Sudan-Certification
+Statute
+52.225-25
+Prohibition on Contracting with Entities Engaging in Certain Activities or Transactions Relating to Iran-Representation and Certifications
+Statute
+52.226-3
+Disaster or Emergency Area Representation
+Statute
+52.229-11
+Tax on Certain Foreign Procurements—Notice and Representation
+Statute
+52.240-90
+Security Prohibitions and Exclusions Representations and Certifications
+Statute
+(4)
+The solicitation provision at 52.204-90 is used in lieu of the solicitation provision at 52.204-7 if the solicitation will not require offerors to be registered in the System for Award Management (see policy at 4.203-2). When 52.204-90 is used, also include the individual provisions listed in paragraph (c)(1) of 52.204-7, System for Award Management—Registration, in the solicitation as applicable based on the provision prescriptions (see 4.208(c)).","P_12_205_a_a: Solicitation provisions and contract clauses.
+(a)
+Required provisions
+.; P_12_205_a_b: Include the provision at 52.212-1, Instructions to Offerors—Commercial Products and Commercial Services, in solicitations for commercial products and commercial services. This provision may be tailored to reflect customary commercial practice, except the paragraph on Debriefings, which is required by statute.; P_12_205_a_c: Include the provision at 52.212-2, Evaluation—Commercial Products and Commercial Services, when using the procedures in 12.201-2. This provision may also be used when using the simplified procedures at 12.201-1. This provision should be tailored for the acquisition and must include all evaluation factors and criteria for award.; P_12_205_a_d: Include the following provisions, if applicable based on the provision prescription:
+Table 12-2 — Provisions to include as prescribed.
+Number
+Title
+Source
+52.203-11
+Certification and Disclosure Regarding Payments to Influence Certain Federal Transactions
+Statute
+52.203-18
+Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements-Representation
+Statute
+52.204-7
+System for Award Management—Registration
+Statute
+52.204-7 with Alt I
+System for Award Management—Registration, with Alternate I
+Statute
+52.204-90
+Offeror Identification
+Statute
+52.207-6
+Solicitation of Offers from Small Business Concerns and Small Business Teaming Arrangements or Joint Ventures (Multiple-Award Contracts)
+Statute
+52.209-12
+Certification Regarding Tax Matters
+Statute
+52.219-2
+Equal Low Bids
+Statute
+52.222-18
+Certification Regarding Knowledge of Child Labor for Listed End Products
+E.O.
+52.222-48
+Exemption from Application of the Service Contract Labor Standards for Maintenance, Calibration, or Repair of Certain Equipment–Certification
+Other
+52.222-52
+Exemption from Application of the Service Contract Labor Standards for Certain Services-Certification
+Other
+52.222-56
+Certification Regarding Trafficking in Persons Compliance Plan
+Statute
+52.223-4
+Recovered Material Certification
+Statute
+52.225-2
+Buy American Certificate
+Statute
+52.225-4
+Buy American-Free Trade Agreements-Israeli Trade Act Certificate
+Statute
+52.225-6
+Trade Agreements-Certificate
+Statute
+52.225-20
+Prohibition on Conducting Restricted Business Operations in Sudan-Certification
+Statute
+52.225-25
+Prohibition on Contracting with Entities Engaging in Certain Activities or Transactions Relating to Iran-Representation and Certifications
+Statute
+52.226-3
+Disaster or Emergency Area Representation
+Statute
+52.229-11
+Tax on Certain Foreign Procurements—Notice and Representation
+Statute
+52.240-90
+Security Prohibitions and Exclusions Representations and Certifications
+Statute; P_12_205_a_e: The solicitation provision at 52.204-90 is used in lieu of the solicitation provision at 52.204-7 if the solicitation will not require offerors to be registered in the System for Award Management (see policy at 4.203-2). When 52.204-90 is used, also include the individual provisions listed in paragraph (c)(1) of 52.204-7, System for Award Management—Registration, in the solicitation as applicable based on the provision prescriptions (see 4.208(c)).","(P_12_205_a_a ∧ P_12_205_a_b ∧ P_12_205_a_c ∧ P_12_205_a_d) ∨ P_12_205_a_e","P_12_201_1, P_12_201_2, P_4_203_2, P_4_208, P_52_203_11, P_52_203_18, P_52_204_7, P_52_204_90, P_52_207_6, P_52_209_12, P_52_212_1, P_52_212_2, P_52_219_2, P_52_222_18, P_52_222_48, P_52_222_52, P_52_222_56, P_52_223_4, P_52_225_2, P_52_225_20, P_52_225_25, P_52_225_4, P_52_225_6, P_52_226_3, P_52_229_11, P_52_240_90","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Prohibition properly represented. Cross-references 26 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.205_b","P_12_205_b","12.205(b) Required clauses
+.
+(1)
+Include the clause at 52.212-4, Terms and Conditions—Commercial Products and Commercial Services, in solicitations and contracts for commercial products and commercial services.
+(i)
+Use the clause with its Alternate I when expecting to award a time-and-materials or labor-hour contract or when expecting that orders will include time-and-material line items.
+(ii)
+This clause may be tailored to reflect customary commercial practice, with the exception of the following paragraphs that implement statute: Assignments, Disputes, Payment, Invoice, Compliance with laws unique to Government contracts, Unauthorized obligations, and Comptroller General examination of records.
+(iii)
+Remove the paragraph on Comptroller General examination of records if the agency head has waived this requirement according to the procedures for waivers of right to examination of records in part 25.
+(2)
+Include the clauses in the following table in solicitations and contracts, if applicable based on the clause prescription:
+Table 12-3 — Clauses to include as prescribed.
+Number
+Title
+Source
+52.203-6 with Alt I
+Restrictions on Subcontractor Sales to the Government
+Statute
+52.203-13
+Contractor Code of Business Ethics and Conduct
+Statute
+52.203-17
+Contractor Employee Whistleblower Rights
+Statute
+52.203-19
+Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements
+Statute
+52.204-9
+Personal Identity Verification of Contractor Personnel
+Other
+52.204-13
+System for Award Management—Maintenance
+Statute
+52.204-91
+Contractor identification
+Other
+52.209-6
+Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment
+Statute
+52.209-9
+Updates of Publicly Available Information Regarding Responsibility Matters
+Statute
+52.209-10
+Prohibition on Contracting with Inverted Domestic Corporations
+Statute
+52.219-4
+Notice of Price Evaluation Preference for HUBZone Small Business Concerns
+Statute
+52.219-6
+Notice of Total Small Business Set-Aside
+Statute
+52.219-6 with Alt I
+Notice of Total Small Business Set-Aside, with Alternate I
+Statute
+52.219-8
+Utilization of Small Business Concerns
+Statute
+52.219-9
+Small Business Subcontracting Plan
+Statute
+52.219-9 with Alt I
+Small Business Subcontracting Plan, with Alternate I
+Statute
+52.219-9 with Alt II
+Small Business Subcontracting Plan, with Alternate II
+Statute
+52.219-9 with Alt III
+Small Business Subcontracting Plan, with Alternate III
+Statute
+52.219-9 with Alt IV
+Small Business Subcontracting Plan, with Alternate IV
+Statute
+52.219-14
+Limitations on Subcontracting
+Statute
+52.219-16
+Liquidated Damages—Subcontracting Plan
+Statute
+52.219-33
+Nonmanufacturer Rule
+Statute
+52.222-3
+Convict Labor
+EO
+52.222-19
+Child Labor—Cooperation with Authorities and Remedies
+EO
+52.222-35
+Equal Opportunity for Veterans
+Statute
+52.222-35 with Alt I
+Equal Opportunity for Veterans, with Alternate I
+Statute
+52.222-36
+Equal Opportunity for Workers with Disabilities
+Statute
+52.222-36 with Alt I
+Equal Opportunity for Workers with Disabilities, with Alternate I
+Statute
+52.222-37
+Employment Reports on Veterans
+Statute
+52.222-40
+Notification of Employee Rights Under the National Labor Relations Act
+EO
+52.222-41
+Service Contract Labor Standards
+Statute
+52.222-42
+Statement of Equivalent Rates for Federal Hires
+Statute
+52.222-43
+Fair Labor Standards Act and Service Contract Labor Standards-Price Adjustment (Multiple Year and Option Contracts)
+Statute
+52.222-44
+Fair Labor Standards Act and Service Contract Labor Standards-Price Adjustment
+Statute
+52.222-50
+Combating Trafficking in Persons
+Statute
+52.222-50 with Alt I
+Combating Trafficking in Persons, with its Alternate I
+Statute
+52.222-51
+Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements
+Other
+52.222-53
+Exemption from Application of the Service Contract Labor Standards to Contracts for Certain Services—Requirements
+Other
+52.222-54
+Employment Eligibility Verification
+EO
+52.222-62
+Paid Sick Leave Under Executive Order 13706
+EO
+52.223-9
+Estimate of Percentage of Recovered Material Content for EPA-Designated Items
+Statute
+52.223-9 with Alt I
+Estimate of Percentage of Recovered Material Content for EPA-Designated Items, with Alternate I
+Statute
+52.223-11
+Ozone-Depleting Substances and High Global Warming Potential Hydrofluorocarbons
+Statute
+52.223-12
+Maintenance
+Statute
+52.223-20
+Aerosols
+Statute
+52.223-21
+Foams
+Statute
+52.223-23
+Sustainable Products and Services
+Statute
+52.224-3
+Privacy Training
+Statute
+52.224-3 with Alt I
+Privacy Training, with Alternate I
+Statute
+52.225-1
+Buy American-Supplies
+Statute
+52.225-1 with Alt I
+Buy American-Supplies, with Alternate I
+Statute
+52.225-3
+Buy American-Free Trade Agreements-Israeli Trade Act
+Statute
+52.225-3 with Alt II
+Buy American-Free Trade Agreements-Israeli Trade Act, with Alternate II
+Statute
+52.225-3 with Alt III
+Buy American-Free Trade Agreements-Israeli Trade Act, with Alternate III
+Statute
+52.225-3 with Alt IV
+Buy American-Free Trade Agreements-Israeli Trade Act, with Alternate IV
+Statute
+52.225-5
+Trade Agreements
+Statute
+52.225-19
+Contractor Personnel in a Designated Operational Area or Supporting a Diplomatic or Consular Mission outside the United States
+Other
+52.225-26
+Contractors Performing Private Security Functions Outside the United States
+Statute
+52.226-4
+Notice of Disaster or Emergency Area Set-Aside
+Statute
+52.226-5
+Restrictions on Subcontracting Outside Disaster or Emergency Area
+Statute
+52.226-8
+Encouraging Contractor Policies to Ban Text Messaging While Driving
+EO
+52.229-12
+Tax on Certain Foreign Procurements
+Statute
+52.232-29
+Terms for Financing of Commercial Products and Commercial Services
+Statute
+52.232-30
+Installment Payments of Commercial Products and Commercial Services
+Statute
+52.232-33
+Payment by Electronic Funds Transfer—System for Award Management
+Statute
+52.232-34
+Payment by Electronic Funds Transfer—Other than System for Award Management
+Statute
+52.232-36
+Payment by Third Party
+Statute
+52.232-40
+Providing Accelerated Payments to Small Business Subcontractors
+Statute
+52.232-9X
+52.232-9X, Fast Payment Procedure
+Statute
+52.233-3
+Protest After Award
+Statute
+52.233-4
+Applicable Law for Breach of Contract Claim
+Statute
+52.240-91
+Security Prohibitions and Exclusions
+Statute
+52.240-91 with Alt I
+Security Prohibitions and Exclusions, with Alternate I
+Statute
+52.240-92
+Security Requirements
+Other
+52.240-92 with Alt II
+Security Requirements with Alternate II
+Other
+52.240-93
+Basic Safeguarding of Covered Contractor Information Systems
+Statute
+52.244-6
+Subcontracts for Commercial Products and Commercial Services
+Statute
+52.247-64
+Preference for Privately Owned U.S.-Flag Commercial Vessels
+Statute
+52.247-64 with Alt I
+Preference for Privately Owned U.S.-Flag Commercial Vessels, with Alternate I
+Statute
+52.247-64 with Alt II
+Preference for Privately Owned U.S.-Flag Commercial Vessels, with Alternate II
+Statute","P_12_205_b_a: (b)
+Required clauses
+.; P_12_205_b_b: Include the clause at 52.212-4, Terms and Conditions—Commercial Products and Commercial Services, in solicitations and contracts for commercial products and commercial services.
+(i)
+Use the clause with its Alternate I when expecting to award a time-and-materials or labor-hour contract or when expecting that orders will include time-and-material line items.
+(ii)
+This clause may be tailored to reflect customary commercial practice, with the exception of the following paragraphs that implement statute: Assignments, Disputes, Payment, Invoice, Compliance with laws unique to Government contracts, Unauthorized obligations, and Comptroller General examination of records.
+(iii)
+Remove the paragraph on Comptroller General examination of records if the agency head has waived this requirement according to the procedures for waivers of right to examination of records in part 25.; P_12_205_b_c: Include the clauses in the following table in solicitations and contracts, if applicable based on the clause prescription:
+Table 12-3 — Clauses to include as prescribed.
+Number
+Title
+Source
+52.203-6 with Alt I
+Restrictions on Subcontractor Sales to the Government
+Statute
+52.203-13
+Contractor Code of Business Ethics and Conduct
+Statute
+52.203-17
+Contractor Employee Whistleblower Rights
+Statute
+52.203-19
+Prohibition on Requiring Certain Internal Confidentiality Agreements or Statements
+Statute
+52.204-9
+Personal Identity Verification of Contractor Personnel
+Other
+52.204-13
+System for Award Management—Maintenance
+Statute
+52.204-91
+Contractor identification
+Other
+52.209-6
+Protecting the Government’s Interest When Subcontracting with Contractors Debarred, Suspended, or Proposed for Debarment
+Statute
+52.209-9
+Updates of Publicly Available Information Regarding Responsibility Matters
+Statute
+52.209-10
+Prohibition on Contracting with Inverted Domestic Corporations
+Statute
+52.219-4
+Notice of Price Evaluation Preference for HUBZone Small Business Concerns
+Statute
+52.219-6
+Notice of Total Small Business Set-Aside
+Statute
+52.219-6 with Alt I
+Notice of Total Small Business Set-Aside, with Alternate I
+Statute
+52.219-8
+Utilization of Small Business Concerns
+Statute
+52.219-9
+Small Business Subcontracting Plan
+Statute
+52.219-9 with Alt I
+Small Business Subcontracting Plan, with Alternate I
+Statute
+52.219-9 with Alt II
+Small Business Subcontracting Plan, with Alternate II
+Statute
+52.219-9 with Alt III
+Small Business Subcontracting Plan, with Alternate III
+Statute
+52.219-9 with Alt IV
+Small Business Subcontracting Plan, with Alternate IV
+Statute
+52.219-14
+Limitations on Subcontracting
+Statute
+52.219-16
+Liquidated Damages—Subcontracting Plan
+Statute
+52.219-33
+Nonmanufacturer Rule
+Statute
+52.222-3
+Convict Labor
+EO
+52.222-19
+Child Labor—Cooperation with Authorities and Remedies
+EO
+52.222-35
+Equal Opportunity for Veterans
+Statute
+52.222-35 with Alt I
+Equal Opportunity for Veterans, with Alternate I
+Statute
+52.222-36
+Equal Opportunity for Workers with Disabilities
+Statute
+52.222-36 with Alt I
+Equal Opportunity for Workers with Disabilities, with Alternate I
+Statute
+52.222-37
+Employment Reports on Veterans
+Statute
+52.222-40
+Notification of Employee Rights Under the National Labor Relations Act
+EO
+52.222-41
+Service Contract Labor Standards
+Statute
+52.222-42
+Statement of Equivalent Rates for Federal Hires
+Statute
+52.222-43
+Fair Labor Standards Act and Service Contract Labor Standards-Price Adjustment (Multiple Year and Option Contracts)
+Statute
+52.222-44
+Fair Labor Standards Act and Service Contract Labor Standards-Price Adjustment
+Statute
+52.222-50
+Combating Trafficking in Persons
+Statute
+52.222-50 with Alt I
+Combating Trafficking in Persons, with its Alternate I
+Statute
+52.222-51
+Exemption from Application of the Service Contract Labor Standards to Contracts for Maintenance, Calibration, or Repair of Certain Equipment—Requirements
+Other
+52.222-53
+Exemption from Application of the Service Contract Labor Standards to Contracts for Certain Services—Requirements
+Other
+52.222-54
+Employment Eligibility Verification
+EO
+52.222-62
+Paid Sick Leave Under Executive Order 13706
+EO
+52.223-9
+Estimate of Percentage of Recovered Material Content for EPA-Designated Items
+Statute
+52.223-9 with Alt I
+Estimate of Percentage of Recovered Material Content for EPA-Designated Items, with Alternate I
+Statute
+52.223-11
+Ozone-Depleting Substances and High Global Warming Potential Hydrofluorocarbons
+Statute
+52.223-12
+Maintenance
+Statute
+52.223-20
+Aerosols
+Statute
+52.223-21
+Foams
+Statute
+52.223-23
+Sustainable Products and Services
+Statute
+52.224-3
+Privacy Training
+Statute
+52.224-3 with Alt I
+Privacy Training, with Alternate I
+Statute
+52.225-1
+Buy American-Supplies
+Statute
+52.225-1 with Alt I
+Buy American-Supplies, with Alternate I
+Statute
+52.225-3
+Buy American-Free Trade Agreements-Israeli Trade Act
+Statute
+52.225-3 with Alt II
+Buy American-Free Trade Agreements-Israeli Trade Act, with Alternate II
+Statute
+52.225-3 with Alt III
+Buy American-Free Trade Agreements-Israeli Trade Act, with Alternate III
+Statute
+52.225-3 with Alt IV
+Buy American-Free Trade Agreements-Israeli Trade Act, with Alternate IV
+Statute
+52.225-5
+Trade Agreements
+Statute
+52.225-19
+Contractor Personnel in a Designated Operational Area or Supporting a Diplomatic or Consular Mission outside the United States
+Other
+52.225-26
+Contractors Performing Private Security Functions Outside the United States
+Statute
+52.226-4
+Notice of Disaster or Emergency Area Set-Aside
+Statute
+52.226-5
+Restrictions on Subcontracting Outside Disaster or Emergency Area
+Statute
+52.226-8
+Encouraging Contractor Policies to Ban Text Messaging While Driving
+EO
+52.229-12
+Tax on Certain Foreign Procurements
+Statute
+52.232-29
+Terms for Financing of Commercial Products and Commercial Services
+Statute
+52.232-30
+Installment Payments of Commercial Products and Commercial Services
+Statute
+52.232-33
+Payment by Electronic Funds Transfer—System for Award Management
+Statute
+52.232-34
+Payment by Electronic Funds Transfer—Other than System for Award Management
+Statute
+52.232-36
+Payment by Third Party
+Statute
+52.232-40
+Providing Accelerated Payments to Small Business Subcontractors
+Statute
+52.232-9X
+52.232-9X, Fast Payment Procedure
+Statute
+52.233-3
+Protest After Award
+Statute
+52.233-4
+Applicable Law for Breach of Contract Claim
+Statute
+52.240-91
+Security Prohibitions and Exclusions
+Statute
+52.240-91 with Alt I
+Security Prohibitions and Exclusions, with Alternate I
+Statute
+52.240-92
+Security Requirements
+Other
+52.240-92 with Alt II
+Security Requirements with Alternate II
+Other
+52.240-93
+Basic Safeguarding of Covered Contractor Information Systems
+Statute
+52.244-6
+Subcontracts for Commercial Products and Commercial Services
+Statute
+52.247-64
+Preference for Privately Owned U.S.-Flag Commercial Vessels
+Statute
+52.247-64 with Alt I
+Preference for Privately Owned U.S.-Flag Commercial Vessels, with Alternate I
+Statute
+52.247-64 with Alt II
+Preference for Privately Owned U.S.-Flag Commercial Vessels, with Alternate II
+Statute","(P_12_205_b_a ⊃ (P_12_205_b_b ∧ P_12_205_b_c))","P_52_203_13, P_52_203_17, P_52_203_19, P_52_203_6, P_52_204_13, P_52_204_9, P_52_204_91, P_52_209_10, P_52_209_6, P_52_209_9, P_52_212_4, P_52_219_14, P_52_219_16, P_52_219_33, P_52_219_4, P_52_219_6, P_52_219_8, P_52_219_9, P_52_222_19, P_52_222_3, P_52_222_35, P_52_222_36, P_52_222_37, P_52_222_40, P_52_222_41, P_52_222_42, P_52_222_43, P_52_222_44, P_52_222_50, P_52_222_51, P_52_222_53, P_52_222_54, P_52_222_62, P_52_223_11, P_52_223_12, P_52_223_20, P_52_223_21, P_52_223_23, P_52_223_9, P_52_224_3, P_52_225_1, P_52_225_19, P_52_225_26, P_52_225_3, P_52_225_5, P_52_226_4, P_52_226_5, P_52_226_8, P_52_229_12, P_52_232, P_52_232_29, P_52_232_30, P_52_232_33, P_52_232_34, P_52_232_36, P_52_232_40, P_52_233_3, P_52_233_4, P_52_240_91, P_52_240_92, P_52_240_93, P_52_244_6, P_52_247_64","Modus ponens (MP): Rule 1; Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Prohibition properly represented. Cross-references 63 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.205_c","P_12_205_c","12.205(c) Discretionary
+. Include the following provisions and clauses, as needed:
+Table 12-4 — Provisions and clauses to include as needed.
+Part
+Provisions and clauses prescribed for use…
+16
+In certain contract types (see 12.104)
+17
+When including options
+27
+When necessary to delineate rights in certain types of data (see 12.106)
+36
+In construction contracts
+45
+When the contractor will use Government property in performance of the contract","P_12_205_c_a: (c)
+Discretionary
+. Include the following provisions and clauses, as needed:
+Table 12-4 — Provisions and clauses to include as needed.
+Part
+Provisions and clauses prescribed for use…
+16
+In certain contract types (see 12.104)
+17
+When including options
+27
+When necessary to delineate rights in certain types of data (see 12.106)
+36
+In construction contracts
+45
+When the contractor will use Government property in performance of the contract","P_12_205_c_a","P_12_104, P_12_106","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 2 other section(s).","HIGH"
+"12.2 (Solicitation/Evaluation/Award)","12.205_d","P_12_205_d","12.205(d) Waivers and deviations
+.
+(1)
+Waivers
+. Agencies may waive or tailor provisions and clauses authorized for use in acquisitions for commercial products or commercial services if—
+(i)
+The provision or clause does not implement statute or Executive order;
+(ii)
+The contracting officer determines the content to be inconsistent with customary commercial practice; and
+(iii)
+(A)
+For individual acquisitions, the head of the contracting activity approves the waiver or tailoring; or
+(B)
+For a class of acquisitions, the senior procurement executive approves the waiver or tailoring.
+(2)
+Deviations
+.
+(i)
+Do not include other provisions or clauses in solicitation or contract for commercial products or commercial services, unless the agency issues an individual or class deviation according to part 1.
+(ii)
+A deviation is not required when an agency supplement to the FAR directs that the contracting officer include a provision or clause in acquisitions of commercial products or commercial services.
+(3)
+Notifications
+. Provide copies of approved class waivers or tailoring or class deviations to the Chair of the Civilian Agency Acquisition Council (for civilian agencies) or the Director of the Defense Acquisition Regulations System (for defense departments and agencies).","P_12_205_d_a: (d)
+Waivers and deviations
+.; P_12_205_d_b: Waivers
+. Agencies may waive or tailor provisions and clauses authorized for use in acquisitions for commercial products or commercial services if—
+(i)
+The provision or clause does not implement statute or Executive order;
+(ii)
+The contracting officer determines the content to be inconsistent with customary commercial practice; and
+(iii)
+(A)
+For individual acquisitions, the head of the contracting activity approves the waiver or tailoring; or
+(B)
+For a class of acquisitions, the senior procurement executive approves the waiver or tailoring.; P_12_205_d_c: Deviations
+.
+(i)
+Do not include other provisions or clauses in solicitation or contract for commercial products or commercial services, unless the agency issues an individual or class deviation according to part 1.
+(ii)
+A deviation is not required when an agency supplement to the FAR directs that the contracting officer include a provision or clause in acquisitions of commercial products or commercial services.; P_12_205_d_d: Notifications
+. Provide copies of approved class waivers or tailoring or class deviations to the Chair of the Civilian Agency Acquisition Council (for civilian agencies) or the Director of the Defense Acquisition Regulations System (for defense departments and agencies).","(P_12_205_d_a ∧ P_12_205_d_b ∧ P_12_205_d_c) ∨ P_12_205_d_d","None","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Prohibition properly represented.","MEDIUM"
+"12.3 (Postaward)","12.301_a","P_12_301_a","12.301(a) Notifications.
+Posting requirements
+.
+(1)
+Comply with the award notice posting requirements in subpart 5.3.
+(2)
+Make the justifications required by 12.102(b) for acquisitions valued over the SAT publicly available in accordance with 6.301.","P_12_301_a_a: Notifications.
+(a)
+Posting requirements
+.; P_12_301_a_b: Comply with the award notice posting requirements in subpart 5.3.; P_12_301_a_c: Make the justifications required by 12.102(b) for acquisitions valued over the SAT publicly available in accordance with 6.301.","(P_12_301_a_a ∧ P_12_301_a_b ∧ P_12_301_a_c)","P_12_102, P_6_301","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Mandatory requirement; enforceable. Cross-references 2 other section(s).","HIGH"
+"12.3 (Postaward)","12.301_b","P_12_301_b","12.301(b) Explanations for unsuccessful quoters. When using the simplified procedures at 12.201-1, upon request, provide a brief explanation of the award decision that explains why the unsuccessful quoter was not selected. If an award notice was not required to be posted to the GPE, also provide the information that would be included in an award notice (see 5.301(c)).","P_12_301_b_a: (b)
+Explanations for unsuccessful quoters. When using the simplified procedures at 12.201-1, upon request, provide a brief explanation of the award decision that explains why the unsuccessful quoter was not selected. If an award notice was not required to be posted to the GPE, also provide the information that would be included in an award notice (see 5.301(c)).","P_12_301_b_a","P_12_201_1, P_5_301","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Mandatory requirement; enforceable. Cross-references 2 other section(s).","HIGH"
+"12.3 (Postaward)","12.301_c","P_12_301_c","12.301(c) Notifications and debriefings of unsuccessful offerors. When using the procedures in 12.201-2, follow the procedures in part 15 or 14 for notification of unsuccessful offerors and debriefings, as appropriate. When providing a debriefing, include the information listed at 52.212-1(e).","P_12_301_c_a: (c)
+Notifications and debriefings of unsuccessful offerors. When using the procedures in 12.201-2, follow the procedures in part 15 or 14 for notification of unsuccessful offerors and debriefings, as appropriate. When providing a debriefing, include the information listed at 52.212-1(e).","P_12_301_c_a","P_12_201_2, P_52_212_1","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 2 other section(s).","HIGH"
+"12.3 (Postaward)","12.302","P_12_302","12.302
+Subcontracts.
+See requirements for subcontracts for commercial products and commercial services in part 44.","P_12_302_a: See requirements for subcontracts for commercial products and commercial services in part 44.","P_12_302_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.3 (Postaward)","12.303_a","P_12_303_a","12.303(a) Cancellations.
+The Government may withdraw, amend, or cancel purchase orders by written notice to the supplier at any time before acceptance of the order occurs (see 12.201-1(b)).","P_12_303_a_a: Cancellations.
+(a)
+The Government may withdraw, amend, or cancel purchase orders by written notice to the supplier at any time before acceptance of the order occurs (see 12.201-1(b)).","P_12_303_a_a","P_12_201_1","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Permissive statement; optional action. Cross-references 1 other section(s).","HIGH"
+"12.3 (Postaward)","12.303_b","P_12_303_b","12.303(b) If the supplier did not accept the purchase order in writing, request that the supplier provide written acceptance of the cancellation.","P_12_303_b_a: (b)
+If the supplier did not accept the purchase order in writing, request that the supplier provide written acceptance of the cancellation.","P_12_303_b_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.3 (Postaward)","12.303_c","P_12_303_c","12.303(c) If the contractor does not accept the cancellation or claims that costs were incurred as a result of the contractor beginning performance under the purchase order, follow the procedures at 12.304 to terminate the purchase order.","P_12_303_c_a: (c)
+If the contractor does not accept the cancellation or claims that costs were incurred as a result of the contractor beginning performance under the purchase order, follow the procedures at 12.304 to terminate the purchase order.","P_12_303_c_a","P_12_304","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 1 other section(s).","HIGH"
+"12.3 (Postaward)","12.304_a","P_12_304_a","12.304(a) Terminations.
+General. Follow the procedures in this section and the termination paragraphs of the clause at 52.212-4, when terminating contracts for commercial products or commercial services. Do not use the procedures in part 49.","P_12_304_a_a: Terminations.
+(a)
+General. Follow the procedures in this section and the termination paragraphs of the clause at 52.212-4, when terminating contracts for commercial products or commercial services. Do not use the procedures in part 49.","P_12_304_a_a","P_52_212_4","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Prohibition properly represented. Cross-references 1 other section(s).","HIGH"
+"12.3 (Postaward)","12.304_b","P_12_304_b","12.304(b) Termination for cause
+.
+(1)
+Before terminating a contract for cause, send a cure notice to the contractor, unless the reason for the termination is late delivery.
+(2)
+When a termination for cause is appropriate, send the contractor a written notification regarding the termination. At a minimum, this notification must include—
+(i)
+A statement that the contract is terminated for cause;
+(ii)
+The reasons for the termination;
+(iii)
+Which remedies the Government intends to seek or give a date by which the Government will inform the contractor of the remedy; and
+(iv)
+A statement that the notice constitutes a final decision of the contracting officer, and that the contractor has the right to appeal under the Disputes clause.
+(3)
+Follow the procedures in part 42 to report termination information to the Federal Awardee Performance and Integrity Information System.","P_12_304_b_a: (b)
+Termination for cause
+.; P_12_304_b_b: Before terminating a contract for cause, send a cure notice to the contractor, unless the reason for the termination is late delivery.; P_12_304_b_c: When a termination for cause is appropriate, send the contractor a written notification regarding the termination. At a minimum, this notification must include—
+(i)
+A statement that the contract is terminated for cause;
+(ii)
+The reasons for the termination;
+(iii)
+Which remedies the Government intends to seek or give a date by which the Government will inform the contractor of the remedy; and
+(iv)
+A statement that the notice constitutes a final decision of the contracting officer, and that the contractor has the right to appeal under the Disputes clause.; P_12_304_b_d: Follow the procedures in part 42 to report termination information to the Federal Awardee Performance and Integrity Information System.","(P_12_304_b_a ∧ P_12_304_b_b ∧ P_12_304_b_c) ∨ P_12_304_b_d","None","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Mandatory requirement; enforceable.","MEDIUM"
+"12.3 (Postaward)","12.304_c","P_12_304_c","12.304(c) Termination for the Government’s convenience. When terminating for the Government’s convenience, the parties should mutually agree upon the requirements of the termination proposal. Balance the Government’s need to obtain sufficient documentation to support payment to the contractor against the goal of having a simple and expeditious settlement.","P_12_304_c_a: (c)
+Termination for the Government’s convenience. When terminating for the Government’s convenience, the parties should mutually agree upon the requirements of the termination proposal. Balance the Government’s need to obtain sufficient documentation to support payment to the contractor against the goal of having a simple and expeditious settlement.","P_12_304_c_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Permissive statement; optional action.","HIGH"
+"12.4 (Micro-purchases)","12.401_a","P_12_401_a","12.401(a) General.
+Agency heads are encouraged to delegate micro-purchase authority (see part 1).","P_12_401_a_a: General.
+(a)
+Agency heads are encouraged to delegate micro-purchase authority (see part 1).","P_12_401_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Permissive statement; optional action.","HIGH"
+"12.4 (Micro-purchases)","12.401_b","P_12_401_b","12.401(b) Micro-purchases do not require written provisions or clauses. This paragraph takes precedence over any other FAR requirement to the contrary but does not prohibit the use of any clause.","P_12_401_b_a: (b)
+Micro-purchases do not require written provisions or clauses. This paragraph takes precedence over any other FAR requirement to the contrary but does not prohibit the use of any clause.","P_12_401_b_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Mandatory requirement; enforceable.","HIGH"
+"12.4 (Micro-purchases)","12.401_c","P_12_401_c","12.401(c) The security prohibitions and exclusions addressed at subpart 40.2 apply to micro-purchases, unless an exception applies or waiver is granted according to that subpart. However, the provisions and clauses in that subpart are not used for micro-purchases.","P_12_401_c_a: (c)
+The security prohibitions and exclusions addressed at subpart 40.2 apply to micro-purchases, unless an exception applies or waiver is granted according to that subpart.; P_12_401_c_b: However, the provisions and clauses in that subpart are not used for micro-purchases.","(P_12_401_c_a) ∨ P_12_401_c_b","None","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Prohibition properly represented.","HIGH"
+"12.4 (Micro-purchases)","12.401_d","P_12_401_d","12.401(d) Paragraph (s) , Unauthorized Obligations, of the clause at 52.212-4, Terms and Conditions—Commercial Products and Commercial Services, automatically applies to any micro-purchase, including those made with the Governmentwide commercial purchase card. This clause prevents violations of the Anti-Deficiency Act (31 U.S.C. 1341).","P_12_401_d_a: (d)
+Paragraph (s) , Unauthorized Obligations, of the clause at 52.212-4, Terms and Conditions—Commercial Products and Commercial Services, automatically applies to any micro-purchase, including those made with the Governmentwide commercial purchase card. This clause prevents violations of the Anti-Deficiency Act (31 U.S.C. 1341).","P_12_401_d_a","P_52_212_4","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented. Cross-references 1 other section(s).","HIGH"
+"12.4 (Micro-purchases)","12.402_a","P_12_402_a","12.402(a) Purchase guidelines.
+To the extent practicable, distribute micro-purchases equitably among qualified suppliers.","P_12_402_a_a: Purchase guidelines.
+(a)
+To the extent practicable, distribute micro-purchases equitably among qualified suppliers.","P_12_402_a_a","None","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Regulatory statement properly represented.","HIGH"
+"12.4 (Micro-purchases)","12.402_b","P_12_402_b","12.402(b) Micro-purchases may be awarded without soliciting competitive quotations if the contracting officer or individual appointed in accordance with 1.403-2(b) considers the price to be reasonable.","P_12_402_b_a: (b)
+Micro-purchases may be awarded without soliciting competitive quotations if the contracting officer or individual appointed in accordance with 1.403-2(b) considers the price to be reasonable.","P_12_402_b_a","P_1_403_2","Simplification (Simp): Rule 6","VALID","PASS","PASS","No contradictions detected. Permissive statement; optional action. Cross-references 1 other section(s).","HIGH"
+"12.4 (Micro-purchases)","12.402_c","P_12_402_c","12.402(c) The administrative cost of verifying the reasonableness of the price for purchases may more than offset potential savings from detecting instances of overpricing. Therefore, action to verify price reasonableness need only be taken if there is—
+(1)
+A lack of understanding of competitive pricing; or
+(2)
+Reason to suspect that a price is not reasonable.","P_12_402_c_a: (c)
+The administrative cost of verifying the reasonableness of the price for purchases may more than offset potential savings from detecting instances of overpricing. Therefore, action to verify price reasonableness need only be taken if there is—; P_12_402_c_b: A lack of understanding of competitive pricing; or; P_12_402_c_c: Reason to suspect that a price is not reasonable.","(P_12_402_c_a ⊃ (P_12_402_c_b ∧ P_12_402_c_c))","None","Modus ponens (MP): Rule 1; Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Permissive statement; optional action.","HIGH"
+"12.4 (Micro-purchases)","12.402_d","P_12_402_d","12.402(d) If the contracting officer solicited competitive quotations and made award to a supplier that did not provide the lowest quote, documentation of the award must include identification of the suppliers solicited and a brief explanation of the award decision.","P_12_402_d_a: (d)
+If the contracting officer solicited competitive quotations and made award to a supplier that did not provide the lowest quote, documentation of the award must include identification of the suppliers solicited and a brief explanation of the award decision.","P_12_402_d_a","None","De Morgan's Rule (DM): Rule 9","VALID","PASS","PASS","No contradictions detected. Mandatory requirement; enforceable.","HIGH"
+"12.4 (Micro-purchases)","12.403_a","P_12_403_a","12.403(a) Methods.
+Use the following methods as the primary means of making micro-purchases:
+(1)
+The Governmentwide commercial purchase card
+. The Governmentwide commercial purchase card is authorized for use in making purchases of supplies, services, or construction. Contracting officers and other individuals designated according to part 1 may use the Governmentwide commercial purchase card. The card may be used only for purchases authorized by law or regulation.
+(2)
+Purchase orders
+. Purchase orders (including orders against blanket purchase agreements) may be used to make micro-purchases. See 12.203(d)(1).","P_12_403_a_a: Methods.
+(a)
+Use the following methods as the primary means of making micro-purchases:; P_12_403_a_b: The Governmentwide commercial purchase card
+. The Governmentwide commercial purchase card is authorized for use in making purchases of supplies, services, or construction. Contracting officers and other individuals designated according to part 1 may use the Governmentwide commercial purchase card. The card may be used only for purchases authorized by law or regulation.; P_12_403_a_c: Purchase orders
+. Purchase orders (including orders against blanket purchase agreements) may be used to make micro-purchases. See 12.203(d)(1).","(P_12_403_a_a ∧ P_12_403_a_b ∧ P_12_403_a_c)","P_12_203","Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conjunction links co-required elements. Permissive statement; optional action. Cross-references 1 other section(s).","HIGH"
+"12.4 (Micro-purchases)","12.403_b","P_12_403_b","12.403(b) The SF 44, Purchase Order-Invoice-Voucher, is a multipurpose pocket-size purchase order form designed primarily for on-the-spot, over-the-counter purchases of supplies and nonpersonal services while away from the purchasing office or at isolated activities. Contracting officers may use it in limited circumstances and only when advantageous to the Government if all of the following conditions are satisfied:
+(1)
+An agency authorizes use of the SF 44.
+(2)
+The amount of the purchase is at or below the micro-purchase threshold or higher dollar thresholds established by an agency for purchases made under unusual and compelling urgency or in support of contingency operations.
+(3)
+The supplies or services are immediately available, and one delivery and one payment will be made.
+(4)
+Its use is determined to be more economical and efficient than use of the Governmentwide commercial purchase card.","P_12_403_b_a: (b)
+The SF 44, Purchase Order-Invoice-Voucher, is a multipurpose pocket-size purchase order form designed primarily for on-the-spot, over-the-counter purchases of supplies and nonpersonal services while away from the purchasing office or at isolated activities. Contracting officers may use it in limited circumstances and only when advantageous to the Government if all of the following conditions are satisfied:; P_12_403_b_b: An agency authorizes use of the SF 44.; P_12_403_b_c: The amount of the purchase is at or below the micro-purchase threshold or higher dollar thresholds established by an agency for purchases made under unusual and compelling urgency or in support of contingency operations.; P_12_403_b_d: The supplies or services are immediately available, and one delivery and one payment will be made.; P_12_403_b_e: Its use is determined to be more economical and efficient than use of the Governmentwide commercial purchase card.","(P_12_403_b_a ⊃ (P_12_403_b_b ∧ P_12_403_b_c ∧ P_12_403_b_d ∧ P_12_403_b_e))","None","Modus ponens (MP): Rule 1; Conjunction (Conj): Rule 7","VALID","PASS","PASS","No contradictions detected. Conditional properly structured. Permissive statement; optional action.","HIGH"
+"12.4 (Micro-purchases)","12.403_c","P_12_403_c","12.403(c) Imprest funds and third-party drafts may be used to acquire supplies or services if an agency receives authorization from the Department of Treasury to use these methods and the purchases are made in accordance with Part IV of the Treasury Financial Manual for Guidance of Departments and Agencies. An imprest fund transaction shall not exceed $500 or such other limits as have been approved by the agency head. A third-party draft transaction shall not exceed $2,500, unless authorized at a higher level in accordance with Treasury restrictions.","P_12_403_c_a: (c)
+Imprest funds and third-party drafts may be used to acquire supplies or services if an agency receives authorization from the Department of Treasury to use these methods and the purchases are made in accordance with Part IV of the Treasury Financial Manual for Guidance of Departments and Agencies.; P_12_403_c_b: An imprest fund transaction shall not exceed $500 or such other limits as have been approved by the agency head. A third-party draft transaction shall not exceed $2,500, unless authorized at a higher level in accordance with Treasury restrictions.","(P_12_403_c_a) ∨ P_12_403_c_b","None","De Morgan's Rule (DM): Rule 9; Addition (Add): Rule 8","VALID","PASS","PASS","No contradictions detected. Disjunction represents valid alternatives. Prohibition properly represented.","HIGH"
