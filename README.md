@@ -11,6 +11,7 @@ The project is currently mapping the RFO model deviation text, converting its re
 Federal procurement regulations are dense, interconnected, and often ambiguous. Converting them to formal logic enables:
 
 - **Automated compliance checking**: Verify whether a procurement approach satisfies all applicable requirements
+- **Decision Support Tools**: Enable the development of decision support tools to support acquisition professionals 
 - **Dependency mapping**: Identify which regulations affect each other and trace impact of proposed changes
 - **Logical consistency validation**: Find contradictions, gaps, and circular dependencies in the regulations
 - **Machine-readable requirements**: Enable software tools to parse and apply procurement rules systematically
@@ -51,7 +52,7 @@ Every substantive word from source documents must appear in the final output. Pa
 
 ### Project Scope
 
-With 10 of 53 RFO parts formalized (19% of parts), this represents substantial coverage of critical procurement domains:
+With 10 RFO parts formalized, this represents substantial coverage of critical procurement domains:
 - **Foundation regulations**: Parts 1, 5, 6 (System framework, publicity, competition)
 - **Contract formation**: Parts 12, 15, 16 (Commercial acquisition, negotiation, contract types)
 - **Planning and socioeconomic**: Parts 7, 19, 26 (Acquisition planning, small business, other programs)
