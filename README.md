@@ -1,203 +1,106 @@
-# Federal Acquisition Regulation (FAR) Propositional Logic Project
+# Revolutionary FAR Overhaul (RFO) -- Propositional Logic Dataset
 
-## Overview
+A systematic formalization of the Federal Acquisition Regulation (FAR) into classical propositional logic. Each FAR section is decomposed into atomic propositions, mapped to formal logic statements, validated for soundness, and exported as structured CSV data.
 
-This project converts the Federal Acquisition Regulation (FAR) into formal propositional logic statements. The goal is to transform complex regulatory prose into structured logical representations that support automated analysis, dependency mapping, and validation of federal procurement requirements.
+No one has done this before at this level of granularity. The goal is to make federal procurement regulations machine-readable, queryable, and suitable for automated compliance checking, dependency analysis, and decision support tooling.
 
-The project is currently mapping the RFO model deviation text, converting its regulatory framework into structured propositional logic. Future work will extend this same methodology to agency acquisition regulation supplements.
+A common objection to applying propositional logic to the FAR is that the regulation is written in a procedural format rather than a declarative one, making direct formalization non-trivial. Natural language ambiguity and the context-dependent meaning of regulatory terms resist straightforward translation into formal expressions. However, propositional logic serves as a practical and methodologically sound foundation for this work. Once all extracted propositions have been manually validated for accuracy and structural integrity, the roadmap calls for extending the data structure to incorporate deontic logic, which is purpose-built to capture the normative character of regulatory text by explicitly representing the obligations, permissions, and prohibitions that form the backbone of FAR language.
 
-## Why This Matters
 
-Federal procurement regulations are dense, interconnected, and often ambiguous. Converting them to formal logic enables:
+## What This Is
 
-- **Automated compliance checking**: Verify whether a procurement approach satisfies all applicable requirements
-- **Decision Support Tools**: Enable the development of decision support tools to support acquisition professionals 
-- **Dependency mapping**: Identify which regulations affect each other and trace impact of proposed changes
-- **Logical consistency validation**: Find contradictions, gaps, and circular dependencies in the regulations
-- **Machine-readable requirements**: Enable software tools to parse and apply procurement rules systematically
+The FAR is the primary regulation governing federal procurement in the United States. It runs roughly 2,000 pages of dense legal text covering everything from competition requirements to contract cost accounting to labor standards. This project converts that text into formal propositional logic using five classical operators:
+
+- Conjunction (AND, symbol: ^) -- "both X and Y are required"
+- Disjunction (OR, symbol: v) -- "either X or Y satisfies"
+- Negation (NOT, symbol: ~) -- "X shall not occur"
+- Material implication (IF...THEN, symbol: ->) -- "if condition X, then requirement Y"
+- Biconditional (IFF, symbol: <->) -- "X if and only if Y"
+
+Each proposition is traced back to its exact FAR section, decomposed into atomic components, assigned formal logic, tagged with justification rules from a standardized 18-rule set, and independently validated against both logical soundness and real-world regulatory sense.
+
+## CSV Schema
+
+Every output file uses this 13-column structure:
+
+| Column | Type | Description |
+|--------|------|-------------|
+| RFO_Part | Integer | FAR part number |
+| Section_Number | String | Original FAR section reference (e.g., 7.105(a)(1)) |
+| Propositional_ID | String | Unique identifier (e.g., P_7_105_a_1) |
+| Natural_Language | String | Complete regulatory text, word-for-word from source |
+| Atomic_Propositions | String | Semicolon-delimited atomic components with sub-IDs |
+| Formal_Logic_Statement | String | Propositional logic formula |
+| Dependencies | String | Cross-referenced proposition IDs, or "None" |
+| Justification_Rules | String | Logic rules applied, with rule numbers |
+| Validation_Status | Enum | VALIDATED, PENDING_REVIEW, REJECTED, or INCOMPLETE |
+| Logical_Check | Enum | PASS or FAIL |
+| Real_World_Check | Enum | PASS or FAIL |
+| Validation_Notes | String | Explanation of validation outcome and flagged issues |
+| Confidence_Level | Enum | HIGH, MEDIUM, or LOW |
+
+## File Naming Convention
+
+All data files follow the pattern `RFO_Part_[N]_Propositional_Logic.csv` where N is the FAR part number.
 
 ## Methodology
 
-The conversion follows an 8-step pipeline:
+Extraction follows a 5-phase pipeline defined in `Text_to_Logic_Prompt_v3_0_iterative.md`:
 
-1. **HTML Extraction**: Parse RFO parts from MHT source files
-2. **Content Parsing**: Extract regulatory text while excluding headers, navigation, and metadata
-3. **Atomic Proposition Identification**: Break down complex statements into discrete logical units
-4. **Formal Logic Statement Creation**: Apply standard logical operators (∧, ∨, ⊃, ~, ≡)
-5. **Cross-Reference Mapping**: Track dependencies between regulatory sections
-6. **Validation Execution**: Check logical consistency and real-world applicability
-7. **Confidence Assessment**: Rate reliability of each formalization
-8. **CSV Output Generation**: Store structured data in standardized format
+1. **Assess and Plan** -- Measure input size, classify complexity, identify segment boundaries, build a processing map.
+2. **Build the Skeleton** -- Scan source text for every section and subsection. Assign propositional IDs. Apply the parent proposition rule (any section with subsections gets a parent entry). The skeleton becomes the single source of truth for all IDs.
+3. **Extract Segments** -- For each segment: copy regulatory text verbatim, decompose into atomic propositions, construct formal logic statements, document justification rules, run soundness validation (logical check + real-world check), assign confidence levels. Segments are processed sequentially and exported independently.
+4. **Merge and Resolve Dependencies** -- Combine all segment CSVs. Resolve cross-references (replace DEFERRED markers with actual proposition IDs). Build cross-part dependency maps.
+5. **Audit and Finalize** -- Structural checks (ID uniqueness, parent-child integrity, no gaps). Content checks (operator validity, dependency resolution, no blank fields). Consistency checks (validation status matches outcomes, HIGH-RISK rules flagged).
 
-### Core Principle: Word-for-Word Accuracy
+### Justification Rules
 
-Every substantive word from source documents must appear in the final output. Paraphrasing introduces unacceptable risk of meaning drift in regulatory contexts. Comprehensive audits verify complete coverage of source material.
+The project uses 18 standard rules of propositional logic. Three are flagged HIGH-RISK due to their potential to alter regulatory meaning if applied incorrectly:
 
-## Current Status
+- Rule 9 (Simplification) -- can drop required conjuncts
+- Rule 12 (Commutation) -- can obscure regulatory priority
+- Rule 15 (Material Implication) -- can reverse causality
 
-### Completed Parts (RFO Model Deviation Text)
+Any proposition using a HIGH-RISK rule is automatically set to PENDING_REVIEW with a MEDIUM confidence floor, regardless of other validation outcomes.
 
-- **Part 1**: Federal Acquisition Regulations System (68 propositions)
-- **Part 5**: Publicizing Contract Actions (38 propositions)
-- **Part 6**: Competition Requirements (57 propositions)
-- **Part 7**: Acquisition Planning (63 propositions)
-- **Part 12**: Acquisition of Commercial Products and Services (1,273 propositions)
-- **Part 15**: Contracting by Negotiation (326 propositions)
-- **Part 16**: Types of Contracts (111 propositions)
-- **Part 19**: Small Business Programs (77 propositions)
-- **Part 26**: Other Socioeconomic Programs (28 propositions)
-- **Part 33**: Protests, Disputes, and Appeals (111 propositions)
+### Key Design Decisions
 
-**Total**: 2,152 propositions across 10 RFO parts
+**Word-for-word accuracy.** The Natural_Language column preserves the exact FAR text. No paraphrasing. In regulatory contexts, even minor rewording introduces unacceptable risk of meaning drift.
 
-### Project Scope
+**No self-validation.** The same model that generates propositions should not be the sole validator. All extractions are marked PENDING_REVIEW until independently reviewed. The dataset includes a self-validation warning on every final export.
 
-With 10 RFO parts formalized, this represents substantial coverage of critical procurement domains:
-- **Foundation regulations**: Parts 1, 5, 6 (System framework, publicity, competition)
-- **Contract formation**: Parts 12, 15, 16 (Commercial acquisition, negotiation, contract types)
-- **Planning and socioeconomic**: Parts 7, 19, 26 (Acquisition planning, small business, other programs)
-- **Administration**: Part 33 (Protests, disputes, appeals)
+**"May" is not "shall."** Permissive language ("the contracting officer may") is modeled as a tautology in the consequent: `Condition -> (Action v ~Action)`. This preserves the discretionary nature without converting permission into obligation.
 
-The completed parts include many of the most frequently referenced sections in federal procurement practice.
+**Dependencies are resolved separately.** During initial extraction, all cross-references are marked DEFERRED. Resolution happens in a dedicated merge phase to prevent cascading errors during segment processing.
 
-**Part 52 Reference File**: Part 52 (Solicitation Provisions and Contract Clauses) is maintained as a complete reference file in the project but does not require propositional logic formalization at this time.
+## Known Limitations
 
-**Future Expansion**: Following completion of the RFO base regulation, the same methodology will be applied to agency acquisition regulation supplements (DFARS, HHSAR, and others), creating a comprehensive logical framework for the entire federal acquisition regulatory system.
+**Validation is incomplete.** 39% of propositions are still PENDING_REVIEW. These require independent human review, not just model re-checking. The VALIDATED status means the proposition passed automated logical and real-world checks, not that it has been independently audited.
 
-### Dependency Analysis
+**Encoding artifacts.** Some files contain UTF-8 multi-byte encoding artifacts in the Formal_Logic_Statement column (visible as mojibake for logical operators). The logical structure is correct but the display characters need cleanup in those rows.
 
-- Extensive internal connections between completed parts identified
-- Part 52 available as complete reference file for clause cross-references
-- Comprehensive cross-reference mapping across the 10 formalized parts
-- Known circular dependencies exist in Part 5 presolicitation requirements (bidirectional cross-references confirmed in source)
-- Ongoing validation of medium-confidence entries across complex conditional sections
+**CSV parsing issues.** Parts 12 and 15 have known issues with embedded newlines in the Natural_Language column that can break naive CSV parsers. Use a proper CSV library (Python csv module, pandas, etc.) rather than line-splitting.
 
-## Data Structure
+**Context window degradation.** Extraction quality can degrade in rows 80+ of a single processing pass due to LLM context window limitations. The methodology mitigates this through segmented processing, but earlier extractions (before the iterative methodology was adopted) may have more issues in their latter halves.
 
-Each proposition record includes:
+**Propositional logic constraints.** Classical propositional logic cannot fully capture deontic modality (obligations vs. permissions vs. prohibitions), temporal relationships, or quantified statements. The dataset approximates these using the available operators and documents the approximations in Validation_Notes.
 
-| Field | Description |
-|-------|-------------|
-| RFO_Part | RFO part number (integer) |
-| Section_Number | RFO section identifier |
-| Propositional_ID | Unique ID in format P_[Part]_[Section]_[Subsection] |
-| Natural_Language | Original regulatory text |
-| Atomic_Propositions | Component logical statements |
-| Formal_Logic_Statement | Formalized expression using logical operators |
-| Dependencies | References to related proposition IDs |
-| Justification_Rules | Logical rules applied (from 18 standard rules) |
-| Validation_Status | Validated/Pending/Needs Review |
-| Logical_Check | Pass/Fail for internal consistency |
-| Real_World_Check | Pass/Fail for practical applicability |
-| Validation_Notes | Comments on edge cases or uncertainties |
-| Confidence_Level | High/Medium/Low reliability rating |
+## Potential Applications
 
-### Logical Operators
-
-- ∧ (conjunction): AND
-- ∨ (disjunction): OR
-- ⊃ (material implication): IF-THEN
-- ~ (negation): NOT
-- ≡ (material equivalence): IF AND ONLY IF
-
-## File Organization
-
-```
-RFO_Part_[X]_Propositional_Logic.csv - Formalized propositions for each RFO part
-RFO_far_part_52_provisions_clauses.csv - Reference file (different format, complete)
-README.md - This file
-```
-
-## Known Issues
-
-1. **Medium Confidence Entries**: Complex compound sections across multiple parts need independent validation
-2. **Circular Dependencies**: Part 5 contains bidirectional cross-references (confirmed as legitimate in source)
-3. **Validation Status**: Most propositions marked "PENDING_REVIEW" - require independent expert validation to upgrade confidence levels
-4. **Part 52 Formalization**: While Part 52 exists as a complete reference file, it has not been formalized into propositional logic, creating gaps in dependency resolution for clauses referenced by other parts
-5. **Coverage Gaps**: Several RFO parts remain incomplete (Parts 2, 3, 4, 8-11, 13-14, 17-18, 20-25, 27-32, 34-51)
-
-## Next Steps
-
-### Short-Term (Current RFO Work)
-
-1. **Independent Validation**: Recruit domain experts to validate medium and low-confidence propositions
-2. **Dependency Network Analysis**: Run comprehensive cross-reference analysis across all 10 completed RFO parts
-3. **Strategic Expansion**: Prioritize remaining RFO parts based on:
-   - Reference frequency from completed parts
-   - Critical procurement process stages
-   - Regulatory impact and usage patterns
-4. **Quality Assurance**: Conduct systematic audits for word-for-word accuracy across all completed parts
-5. **Tool Development**: Build automated compliance checking tools using the formalized logic
-
-### Long-Term (Future Expansion)
-
-6. **Agency Supplements**: Apply the same propositional logic methodology to agency acquisition regulation supplements (e.g., DFARS, HHSAR, AIDAR, etc.)
-7. **Cross-System Dependencies**: Map logical dependencies between RFO and agency-specific regulations
-8. **Complete Coverage**: Achieve comprehensive formalization across the entire federal acquisition regulatory framework
-
-## Technical Details
-
-### ID Management System
-
-The format P_[Part]_[Section]_[Subsection] ensures:
-- Unique identification across all RFO parts
-- Preservation of regulatory structure
-- Prevention of namespace conflicts as project scales
-
-### Validation Layers
-
-1. **Logical Consistency**: Automated checks for contradictions and tautologies
-2. **Real-World Applicability**: Manual review against actual procurement scenarios
-3. **Confidence Scoring**: High (straightforward), Medium (complex conditionals), Low (ambiguous language)
-
-### 18 Standard Rules of Propositional Logic
-
-Foundation for all formalizations:
-- Modus Ponens, Modus Tollens
-- Hypothetical Syllogism, Disjunctive Syllogism
-- Conjunction, Simplification, Addition
-- De Morgan's Laws, Distribution, Association
-- Commutation, Idempotence, Absorption
-- Double Negation, Contraposition, Implication
-- Exportation, Tautology
-
-## Tools and Resources
-
-- **Python**: HTML parsing and logic extraction scripts
-- **CSV**: Structured data storage format
-- **React**: Interactive dependency visualization
-- **Unicode**: Standardized logical notation (∧, ∨, ⊃, ~, ≡)
-- **MHT files**: Source RFO regulatory documents
-
-## Contributing
-
-When adding new formalizations:
-
-1. Follow the 8-step pipeline exactly
-2. Maintain word-for-word accuracy through audit passes
-3. Use consistent ID format: P_[Part]_[Section]_[Subsection]
-4. Document all dependencies and cross-references
-5. Complete multi-layer validation before marking as high confidence
-6. Update dependency maps when adding new sections
-
-### Contributor Recognition
-
-Major contributors to this project will be recognized for their substantive work. Those who make significant contributions to the formalization effort (completing multiple parts, developing critical tools, or providing expert validation) will be offered opportunities to share in any future commercial applications or derivative works that may emerge from this project.
-
-This project currently operates under CC BY-NC 4.0 (non-commercial), but significant contributors will have the opportunity to participate in future value creation should commercial opportunities arise.
-
-## Key Learnings
-
-- **Accuracy over elegance**: Regulatory precision trumps concise formalization
-- **Systematic ID management**: Prevents chaos as project scales
-- **Multi-layered validation**: No single check catches all issues
-- **Dependency tracking**: Reveals regulatory networks and critical hubs
-- **Iterative refinement**: First pass captures 80%, subsequent passes catch edge cases
+- Automated compliance checking against FAR requirements
+- Dependency network analysis across FAR parts
+- Decision support tools for contracting officers
+- Regulatory change impact analysis
+- Training data for legal/regulatory AI systems
+- Foundation layer for a neuro-symbolic architecture combining propositional logic with deontic logic and natural language interfaces
 
 ## License
 
-This work is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International). Free for non-commercial use with attribution.
 
-This license restricts the use of this work to non-commercial purposes only. You are free to share and adapt the material, provided you give appropriate credit and do not use it for commercial purposes.
+## Tools Used
 
-The source material consists of public domain U.S. federal regulations.
+- **Extraction:** Claude (Anthropic) with structured methodology prompts
+- **Source data:** FAR MHT files, HTML-parsed
+- **Output format:** CSV (UTF-8)
+- **Methodology version:** Text_to_Logic_Prompt_v3_0_iterative.md
