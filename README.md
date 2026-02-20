@@ -92,7 +92,7 @@ Any proposition using a HIGH-RISK rule is automatically set to PENDING_REVIEW wi
 - Decision support tools for contracting officers
 - Regulatory change impact analysis
 - Training data for legal/regulatory AI systems
-- Foundation layer for a neuro-symbolic architecture combining propositional logic with deontic logic and natural language interfaces
+- Foundation layer for an architecture combining propositional logic with deontic logic and natural language interfaces
 
 ## License
 
